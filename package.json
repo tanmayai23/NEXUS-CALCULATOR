@@ -1,0 +1,13 @@
+{
+  "name": "nexus-calculator",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npm --prefix nexus-math-weaver run dev",
+    "dev:frontend": "npm --prefix nexus-math-weaver run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "build": "npm --prefix nexus-math-weaver run build",
+    "preview": "npm --prefix nexus-math-weaver run preview",
+    "lint": "npm --prefix nexus-math-weaver run lint"
+  }
+}

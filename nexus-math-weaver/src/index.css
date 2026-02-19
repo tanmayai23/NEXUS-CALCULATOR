@@ -1,0 +1,87 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 50% 3%;
+    --foreground: 210 40% 98%;
+
+    --card: 240 30% 10%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 240 30% 10%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 243 100% 50%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 260 65% 40%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 240 30% 20%;
+    --muted-foreground: 215 20% 70%;
+
+    --accent: 250 60% 50%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 240 30% 20%;
+    --input: 240 30% 20%;
+    --ring: 243 100% 50%;
+
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .nexus-card {
+    @apply backdrop-blur-md bg-opacity-20 bg-black border border-white/10 rounded-xl shadow-lg;
+  }
+
+  .nexus-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-nexus-primary-bright to-nexus-quantum-violet;
+  }
+
+  .nexus-panel {
+    @apply backdrop-blur-md bg-opacity-10 bg-white/5 border border-white/10 rounded-xl shadow-lg;
+  }
+
+  .nexus-button {
+    @apply px-4 py-2 bg-nexus-primary-bright hover:bg-nexus-primary-bright/80 text-white rounded-md transition-all duration-300 font-medium;
+  }
+
+  .nexus-input {
+    @apply bg-black/30 border border-white/20 rounded-md px-4 py-2 text-white placeholder:text-white/50 focus:outline-none focus:ring-2 focus:ring-nexus-primary-bright;
+  }
+
+  .particle {
+    @apply absolute rounded-full bg-white/30 animate-particle-float;
+  }
+
+  .sacred-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 0 L100 50 L50 100 L0 50 Z' fill='none' stroke='rgba(255,255,255,0.03)' stroke-width='0.5'/%3E%3Ccircle cx='50' cy='50' r='30' fill='none' stroke='rgba(255,255,255,0.02)' stroke-width='0.5'/%3E%3C/svg%3E");
+    background-size: 100px 100px;
+  }
+
+  .grid-bg {
+    background-size: 30px 30px;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+  }
+
+  .nexus-glass {
+    @apply bg-white/5 backdrop-blur-md border border-white/10;
+  }
+}

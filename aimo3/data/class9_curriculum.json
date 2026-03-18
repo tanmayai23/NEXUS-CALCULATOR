@@ -1,0 +1,273 @@
+{
+  "grade": 9,
+  "board": "NCERT",
+  "chapters": [
+    {
+      "id": 1,
+      "name": "Number System",
+      "subtopics": [
+        "Real numbers",
+        "Irrational numbers",
+        "Representation on number line",
+        "Laws of exponents",
+        "Rationalization"
+      ],
+      "formulas": [
+        "a^m * a^n = a^(m+n)",
+        "a^m / a^n = a^(m-n), a != 0",
+        "(a^m)^n = a^(mn)",
+        "(ab)^m = a^m b^m",
+        "(a/b)^m = a^m / b^m, b != 0"
+      ],
+      "question_types": [
+        "Classify numbers as rational or irrational",
+        "Simplify expressions with exponents",
+        "Represent numbers on number line",
+        "Rationalize denominator",
+        "Convert recurring decimals to fractions"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Polynomials",
+      "subtopics": [
+        "Degree and coefficients",
+        "Zeroes of polynomial",
+        "Remainder theorem (intro)",
+        "Factorization basics",
+        "Identities"
+      ],
+      "formulas": [
+        "(a+b)^2 = a^2 + 2ab + b^2",
+        "(a-b)^2 = a^2 - 2ab + b^2",
+        "a^2 - b^2 = (a-b)(a+b)",
+        "(x+a)(x+b) = x^2 + (a+b)x + ab"
+      ],
+      "question_types": [
+        "Find degree and classify polynomial",
+        "Evaluate polynomial at given x",
+        "Find zeroes by factorization",
+        "Use identities to expand",
+        "Use identities to factorize"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Coordinate Geometry",
+      "subtopics": [
+        "Cartesian plane",
+        "Axes and quadrants",
+        "Ordered pairs",
+        "Plotting points"
+      ],
+      "formulas": [
+        "Point P has coordinates (x, y)",
+        "On x-axis, y = 0",
+        "On y-axis, x = 0",
+        "Origin = (0, 0)"
+      ],
+      "question_types": [
+        "Locate a point in quadrant",
+        "Identify axis of given point",
+        "Plot ordered pairs",
+        "Reflect points across axes"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Linear Equations in Two Variables",
+      "subtopics": [
+        "Form ax + by + c = 0",
+        "Solution pairs",
+        "Graph of linear equation",
+        "Word problems"
+      ],
+      "formulas": [
+        "ax + by + c = 0",
+        "If x = x1 gives y = y1, then (x1, y1) is a solution"
+      ],
+      "question_types": [
+        "Check whether ordered pair is a solution",
+        "Find multiple solution pairs",
+        "Draw graph from table",
+        "Translate statement into linear equation"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Introduction to Euclid's Geometry",
+      "subtopics": [
+        "Axioms",
+        "Postulates",
+        "Common notions",
+        "Logical deductions"
+      ],
+      "formulas": [
+        "Things equal to the same thing are equal to one another",
+        "Whole is greater than the part"
+      ],
+      "question_types": [
+        "State axioms/postulates",
+        "Differentiate axiom and theorem",
+        "Apply common notions in short proofs"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Lines and Angles",
+      "subtopics": [
+        "Intersecting and parallel lines",
+        "Transversal",
+        "Corresponding angles",
+        "Alternate angles",
+        "Linear pair"
+      ],
+      "formulas": [
+        "Sum of angles on a straight line = 180 deg",
+        "Vertically opposite angles are equal",
+        "If two lines are parallel, corresponding angles are equal",
+        "Interior angles on same side of transversal are supplementary"
+      ],
+      "question_types": [
+        "Find missing angles",
+        "Prove lines are parallel",
+        "Use transversal properties",
+        "Angle chase proofs"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Triangles",
+      "subtopics": [
+        "Congruence criteria",
+        "Inequalities in triangle",
+        "Angle sum property",
+        "Exterior angle theorem"
+      ],
+      "formulas": [
+        "Sum of angles of triangle = 180 deg",
+        "Exterior angle = sum of opposite interior angles",
+        "Congruence: SSS, SAS, ASA, RHS"
+      ],
+      "question_types": [
+        "Apply congruence criteria",
+        "Find unknown side/angle",
+        "Proofs based on triangle properties",
+        "Inequality based reasoning"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Quadrilaterals",
+      "subtopics": [
+        "Types of quadrilaterals",
+        "Angle sum property",
+        "Parallelogram properties",
+        "Mid-point theorem"
+      ],
+      "formulas": [
+        "Sum of interior angles of quadrilateral = 360 deg",
+        "Opposite sides of parallelogram are equal",
+        "Opposite angles of parallelogram are equal",
+        "Diagonals of parallelogram bisect each other"
+      ],
+      "question_types": [
+        "Classify quadrilateral",
+        "Find unknown angle",
+        "Prove a quadrilateral is a parallelogram",
+        "Use midpoint theorem applications"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Circles",
+      "subtopics": [
+        "Parts of a circle",
+        "Chord properties",
+        "Perpendicular from center",
+        "Equal chords and arcs"
+      ],
+      "formulas": [
+        "Equal chords subtend equal angles at center",
+        "Perpendicular from center to chord bisects chord",
+        "Equal chords are equidistant from center"
+      ],
+      "question_types": [
+        "Use chord-angle properties",
+        "Find lengths using equal chords",
+        "Proofs involving radius/chord",
+        "Apply circle symmetry"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Heron's Formula",
+      "subtopics": [
+        "Semi-perimeter",
+        "Area of triangle",
+        "Application in quadrilaterals"
+      ],
+      "formulas": [
+        "s = (a+b+c)/2",
+        "Area = sqrt(s(s-a)(s-b)(s-c))"
+      ],
+      "question_types": [
+        "Find area from 3 sides",
+        "Compare areas",
+        "Apply to composite shapes",
+        "Reverse problems from area"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Surface Areas and Volumes",
+      "subtopics": [
+        "Cuboid and cube",
+        "Cylinder",
+        "Cone",
+        "Sphere and hemisphere",
+        "Unit conversion"
+      ],
+      "formulas": [
+        "CSA(cuboid) = 2h(l+b)",
+        "TSA(cuboid) = 2(lb+bh+hl)",
+        "Volume(cuboid) = lbh",
+        "CSA(cylinder) = 2pi rh",
+        "TSA(cylinder) = 2pi r(r+h)",
+        "Volume(cylinder) = pi r^2 h",
+        "CSA(cone) = pi rl",
+        "TSA(cone) = pi r(l+r)",
+        "Volume(cone) = (1/3)pi r^2 h",
+        "Surface area(sphere) = 4pi r^2",
+        "Volume(sphere) = (4/3)pi r^3"
+      ],
+      "question_types": [
+        "Direct area/volume calculation",
+        "Word problems with unit conversion",
+        "Compare capacities",
+        "Melt and recast solids"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Statistics",
+      "subtopics": [
+        "Data collection",
+        "Frequency distribution",
+        "Histogram basics",
+        "Mean, median, mode"
+      ],
+      "formulas": [
+        "Mean = (sum of observations)/(number of observations)",
+        "Median = middle value of ordered data",
+        "Mode = most frequent observation"
+      ],
+      "question_types": [
+        "Compute mean/median/mode",
+        "Read frequency table",
+        "Interpret data trends",
+        "Compare two datasets"
+      ]
+    }
+  ]
+}

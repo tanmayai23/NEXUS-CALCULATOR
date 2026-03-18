@@ -100,6 +100,12 @@ NEXUS CALCULATOR/
     └── requirements.txt
 ```
 
+## 🧭 System Working Flow (Start to End)
+
+For full architecture, execution lifecycle, and flowcharts, see:
+
+- [docs/SYSTEM_FLOW.md](docs/SYSTEM_FLOW.md)
+
 ## 🏆 AIMO3 Competition
 
 ### Using the Solver

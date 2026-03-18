@@ -115,3 +115,13 @@ Therefore, the answer is $\\boxed{{{answer}}}$.</s>"""
             return f"""System: {system_prompt}
 
 User: {problem}
+
+Assistant: {solution}
+
+Therefore, the answer is \\boxed{{{answer}}}."""
+        else:
+            return f"""System: {system_prompt}
+
+User: {problem}
+
+Assistant:"""

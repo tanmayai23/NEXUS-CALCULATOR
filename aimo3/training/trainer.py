@@ -48,6 +48,7 @@ class TrainingConfig:
     bf16: bool = True
     fp16: bool = False
     gradient_checkpointing: bool = True
+    use_4bit_quantization: bool = True
     
     # Data
     max_seq_length: int = 4096
@@ -96,22 +97,37 @@ class MathModelTrainer:
         except ImportError as e:
             raise ImportError(f"Missing required packages: {e}\nInstall with: pip install transformers peft bitsandbytes")
         
-        # Quantization config for memory efficiency
-        bnb_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_compute_dtype=torch.bfloat16,
-            bnb_4bit_use_double_quant=True,
-            bnb_4bit_quant_type="nf4"
-        )
+        has_cuda = torch.cuda.is_available()
+
+        # Quantization is only applied when CUDA is available.
+        bnb_config = None
+        if has_cuda and self.config.use_4bit_quantization:
+            bnb_config = BitsAndBytesConfig(
+                load_in_4bit=True,
+                bnb_4bit_compute_dtype=torch.bfloat16,
+                bnb_4bit_use_double_quant=True,
+                bnb_4bit_quant_type="nf4"
+            )
         
         # Load model
         logger.info("Loading model...")
+        model_kwargs = {
+            "trust_remote_code": True,
+        }
+
+        if bnb_config is not None:
+            model_kwargs["quantization_config"] = bnb_config
+            model_kwargs["device_map"] = "auto"
+            model_kwargs["torch_dtype"] = torch.bfloat16
+        elif has_cuda:
+            model_kwargs["device_map"] = "auto"
+            model_kwargs["torch_dtype"] = torch.bfloat16 if self.config.bf16 else torch.float16
+        else:
+            model_kwargs["torch_dtype"] = torch.float32
+
         self.model = AutoModelForCausalLM.from_pretrained(
             self.config.model_name,
-            quantization_config=bnb_config,
-            device_map="auto",
-            trust_remote_code=True,
-            torch_dtype=torch.bfloat16
+            **model_kwargs
         )
         
         # Load tokenizer
@@ -122,16 +138,40 @@ class MathModelTrainer:
         if self.tokenizer.pad_token is None:
             self.tokenizer.pad_token = self.tokenizer.eos_token
         
-        # Prepare for k-bit training
-        self.model = prepare_model_for_kbit_training(self.model)
+        # Prepare for k-bit training only when quantized.
+        if bnb_config is not None:
+            self.model = prepare_model_for_kbit_training(self.model)
         
         # Apply LoRA
         if self.config.use_lora:
             logger.info("Applying LoRA...")
+            available_module_names = [name for name, _ in self.model.named_modules()]
+
+            target_modules = [
+                module
+                for module in self.config.lora_target_modules
+                if any(name.endswith(module) for name in available_module_names)
+            ]
+
+            # Fallback for GPT-style architectures.
+            if not target_modules:
+                fallback_candidates = ["c_attn", "c_proj", "c_fc"]
+                target_modules = [
+                    module
+                    for module in fallback_candidates
+                    if any(name.endswith(module) for name in available_module_names)
+                ]
+
+            if not target_modules:
+                raise ValueError(
+                    "Could not determine LoRA target modules for this model. "
+                    "Please set TrainingConfig.lora_target_modules explicitly."
+                )
+
             lora_config = LoraConfig(
                 r=self.config.lora_r,
                 lora_alpha=self.config.lora_alpha,
-                target_modules=self.config.lora_target_modules,
+                target_modules=target_modules,
                 lora_dropout=self.config.lora_dropout,
                 bias="none",
                 task_type=TaskType.CAUSAL_LM
@@ -222,29 +262,39 @@ The answer is $\\boxed{{{answer}}}$.<|im_end|>"""
     def train(self):
         """Run training."""
         from transformers import TrainingArguments, Trainer, DataCollatorForLanguageModeling
+        import inspect
+
+        has_cuda = torch.cuda.is_available()
         
-        # Training arguments
-        training_args = TrainingArguments(
-            output_dir=self.config.output_dir,
-            num_train_epochs=self.config.num_epochs,
-            per_device_train_batch_size=self.config.batch_size,
-            gradient_accumulation_steps=self.config.gradient_accumulation_steps,
-            learning_rate=self.config.learning_rate,
-            weight_decay=self.config.weight_decay,
-            warmup_ratio=self.config.warmup_ratio,
-            max_steps=self.config.max_steps,
-            logging_steps=self.config.logging_steps,
-            save_steps=self.config.save_steps,
-            eval_steps=self.config.eval_steps if self.eval_dataset else None,
-            evaluation_strategy="steps" if self.eval_dataset else "no",
-            bf16=self.config.bf16,
-            fp16=self.config.fp16,
-            gradient_checkpointing=self.config.gradient_checkpointing,
-            optim="adamw_8bit" if self.config.use_8bit_adam else "adamw_torch",
-            save_total_limit=self.config.save_total_limit,
-            load_best_model_at_end=True if self.eval_dataset else False,
-            report_to=["tensorboard"],
-        )
+        # Training arguments (compatible with both old and new transformers APIs).
+        args_kwargs = {
+            "output_dir": self.config.output_dir,
+            "num_train_epochs": self.config.num_epochs,
+            "per_device_train_batch_size": self.config.batch_size,
+            "gradient_accumulation_steps": self.config.gradient_accumulation_steps,
+            "learning_rate": self.config.learning_rate,
+            "weight_decay": self.config.weight_decay,
+            "warmup_ratio": self.config.warmup_ratio,
+            "max_steps": self.config.max_steps,
+            "logging_steps": self.config.logging_steps,
+            "save_steps": self.config.save_steps,
+            "eval_steps": self.config.eval_steps if self.eval_dataset else None,
+            "bf16": self.config.bf16 and has_cuda,
+            "fp16": self.config.fp16 and has_cuda,
+            "gradient_checkpointing": self.config.gradient_checkpointing,
+            "optim": "adamw_8bit" if (self.config.use_8bit_adam and has_cuda) else "adamw_torch",
+            "save_total_limit": self.config.save_total_limit,
+            "load_best_model_at_end": True if self.eval_dataset else False,
+            "report_to": ["tensorboard"],
+        }
+
+        ta_params = inspect.signature(TrainingArguments.__init__).parameters
+        if "evaluation_strategy" in ta_params:
+            args_kwargs["evaluation_strategy"] = "steps" if self.eval_dataset else "no"
+        elif "eval_strategy" in ta_params:
+            args_kwargs["eval_strategy"] = "steps" if self.eval_dataset else "no"
+
+        training_args = TrainingArguments(**args_kwargs)
         
         # Data collator
         data_collator = DataCollatorForLanguageModeling(

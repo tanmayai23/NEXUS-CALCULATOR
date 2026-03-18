@@ -18,7 +18,7 @@ const NexusInput: React.FC<NexusInputProps> = ({ onFormulaSubmit, onClear }) => 
     if (inputValue.trim()) {
       onFormulaSubmit(inputValue);
       toast.success("Formula processed", {
-        description: "Visualization created successfully"
+        description: "Answer card updated successfully"
       });
     }
   };
@@ -63,7 +63,7 @@ const NexusInput: React.FC<NexusInputProps> = ({ onFormulaSubmit, onClear }) => 
             type="text"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
-            placeholder="Enter mathematical expression..."
+            placeholder="Type your question or expression..."
             className="nexus-input flex-1"
           />
           <Button
@@ -88,7 +88,7 @@ const NexusInput: React.FC<NexusInputProps> = ({ onFormulaSubmit, onClear }) => 
           )}
           <Button type="submit" className="bg-nexus-primary-bright hover:bg-nexus-primary-bright/80">
             <Send className="w-4 h-4 mr-2" />
-            Process
+            Solve Question
           </Button>
         </div>
         

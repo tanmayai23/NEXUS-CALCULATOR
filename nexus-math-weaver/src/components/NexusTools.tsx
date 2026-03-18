@@ -23,6 +23,7 @@ interface NexusToolsProps {
 const categories = [
   { id: 'calculation', name: 'Calculation', icon: Calculator },
   { id: 'visualization', name: 'Visualization', icon: LineChart },
+  { id: 'class9', name: 'Class 9 Visuals', icon: Map },
   { id: 'quantum', name: 'Quantum', icon: BrainCircuit },
   { id: 'dimensions', name: 'Dimensions', icon: Layers },
   { id: 'neural', name: 'Neural Math', icon: Fingerprint },
@@ -117,6 +118,36 @@ const NexusTools: React.FC<NexusToolsProps> = ({
                 icon={BrainCircuit} 
                 label="Neural"
                 onClick={() => handleToolClick('Neural Visualization')}
+              />
+            </>
+          )}
+
+          {activeCategory === 'class9' && (
+            <>
+              <ToolButton
+                icon={Map}
+                label="Coordinate Plotter"
+                onClick={() => handleToolClick('Class 9 Coordinate Plotter')}
+              />
+              <ToolButton
+                icon={Share2}
+                label="Lines and Angles"
+                onClick={() => handleToolClick('Lines and Angles Explorer')}
+              />
+              <ToolButton
+                icon={Layers}
+                label="Triangles Proof"
+                onClick={() => handleToolClick('Triangles Congruence Proof')}
+              />
+              <ToolButton
+                icon={BrainCircuit}
+                label="Circle Chords"
+                onClick={() => handleToolClick('Circle Chord Animator')}
+              />
+              <ToolButton
+                icon={Calculator}
+                label="Surface and Volume"
+                onClick={() => handleToolClick('Surface Volume 3D Net')}
               />
             </>
           )}

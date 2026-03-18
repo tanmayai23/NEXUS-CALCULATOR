@@ -111,6 +111,84 @@ model_path = train_math_model(
 )
 ```
 
+## 📘 Class 9 NCERT Chapter-Wise Training
+
+The repository now includes a chapter-wise Class 9 NCERT training pack for the 12 chapters:
+
+- Number System
+- Polynomials
+- Coordinate Geometry
+- Linear Equations in Two Variables
+- Introduction to Euclid's Geometry
+- Lines and Angles
+- Triangles
+- Quadrilaterals
+- Circles
+- Heron's Formula
+- Surface Areas and Volumes
+- Statistics
+
+### Files included
+
+- `data/class9_curriculum.json` - formulas + question types by chapter
+- `data/class9_training_todo.md` - chapter-wise training checklist
+- `data/class9_training_builder.py` - builds SFT examples
+- `training/train_class9.py` - builds dataset and runs LoRA fine-tuning
+
+### Build chapter-wise dataset only
+
+```bash
+cd aimo3
+python -m training.train_class9 --build_only
+```
+
+### Train chapter-wise model
+
+```bash
+cd aimo3
+python -m training.train_class9 --model "Qwen/Qwen2.5-Math-7B-Instruct" --epochs 2 --output ./outputs/class9_ncert
+```
+
+## 📚 NCERT Class 9-12 Full Training Pipeline
+
+This repository now supports chapter-wise data generation and training for:
+
+- Class 9 (all 12 chapters)
+- Class 10 (all 15 chapters)
+- Class 11 (all 16 chapters)
+- Class 12 Part 1 + Part 2 (all 13 chapters)
+
+### Key files
+
+- `data/ncert_curriculum_9_12.json`
+- `data/ncert_training_builder.py`
+- `data/ncert_9_12_training_todo.md` (auto-generated)
+- `training/train_ncert.py`
+- `training/train_class10.py`
+- `training/train_class11.py`
+- `training/train_class12.py`
+
+### Build all chapter-wise datasets + TODO (recommended first)
+
+```bash
+cd aimo3
+python -m training.train_ncert --build_only
+```
+
+### Train one class
+
+```bash
+cd aimo3
+python -m training.train_ncert --grade 10 --model "Qwen/Qwen2.5-Math-7B-Instruct" --epochs 2 --output ./outputs/ncert_9_12
+```
+
+### Train all classes sequentially
+
+```bash
+cd aimo3
+python -m training.train_ncert --all_grades --model "Qwen/Qwen2.5-Math-7B-Instruct" --epochs 2 --output ./outputs/ncert_9_12
+```
+
 ### 3. Run Inference
 
 ```python

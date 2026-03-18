@@ -1,0 +1,25 @@
+# Python virtual env and cache
+.venv/
+*.env
+*.env.local
+*.env.development.local
+*.env.production.local
+**/__pycache__/
+**/*.pyc
+
+# Node dependencies
+**/node_modules/
+
+# Backend build/runtime artifacts
+backend/dist/
+backend/data/*.json
+
+# AIMO training artifacts
+aimo3/outputs/
+aimo3/data/*training_data.json
+aimo3/data/*training_todo.md
+
+# Optional local ML artifacts
+**/*.safetensors
+**/*.pt
+**/*.pth

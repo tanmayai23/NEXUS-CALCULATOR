@@ -1,0 +1,81 @@
+{
+  "board": "NCERT",
+  "classes": [
+    {
+      "grade": 9,
+      "chapters": [
+        {"id": 1, "name": "Number System", "formulas": ["a^m*a^n=a^(m+n)", "a^m/a^n=a^(m-n), a!=0", "(a^m)^n=a^(mn)", "(ab)^m=a^m b^m", "(a/b)^m=a^m/b^m, b!=0"], "question_types": ["Classify rational and irrational numbers", "Simplify exponent expressions", "Represent numbers on number line", "Rationalize denominator", "Convert recurring decimal to fraction"]},
+        {"id": 2, "name": "Polynomials", "formulas": ["(a+b)^2=a^2+2ab+b^2", "(a-b)^2=a^2-2ab+b^2", "a^2-b^2=(a-b)(a+b)", "(x+a)(x+b)=x^2+(a+b)x+ab"], "question_types": ["Find degree and coefficients", "Evaluate polynomial", "Find zeroes", "Expand using identities", "Factorize using identities"]},
+        {"id": 3, "name": "Coordinate Geometry", "formulas": ["Origin=(0,0)", "On x-axis y=0", "On y-axis x=0"], "question_types": ["Plot points", "Identify quadrant", "Identify axis", "Reflect points"]},
+        {"id": 4, "name": "Linear Equations in Two Variables", "formulas": ["ax+by+c=0"], "question_types": ["Check ordered pair solution", "Generate solution table", "Draw graph", "Convert statement to equation"]},
+        {"id": 5, "name": "Introduction to Euclid's Geometry", "formulas": ["Things equal to the same thing are equal", "Whole is greater than part"], "question_types": ["State axioms and postulates", "Differentiate axiom/theorem", "Apply common notions"]},
+        {"id": 6, "name": "Lines and Angles", "formulas": ["Linear pair sum=180 deg", "Vertically opposite angles are equal", "Corresponding angles equal for parallel lines", "Interior angles on same side are supplementary"], "question_types": ["Find missing angles", "Prove lines parallel", "Use transversal angle relations", "Angle chase proofs"]},
+        {"id": 7, "name": "Triangles", "formulas": ["Angle sum of triangle=180 deg", "Exterior angle equals sum of opposite interior angles", "Congruence rules: SSS, SAS, ASA, RHS"], "question_types": ["Congruence proofs", "Find unknown side/angle", "Use exterior angle theorem", "Triangle inequality reasoning"]},
+        {"id": 8, "name": "Quadrilaterals", "formulas": ["Sum of interior angles=360 deg", "Opposite sides of parallelogram are equal", "Opposite angles of parallelogram are equal", "Diagonals bisect each other in parallelogram"], "question_types": ["Classify quadrilateral", "Find unknown angle", "Prove parallelogram", "Use midpoint theorem"]},
+        {"id": 9, "name": "Circles", "formulas": ["Equal chords subtend equal angles at center", "Perpendicular from center to chord bisects chord", "Equal chords are equidistant from center"], "question_types": ["Apply chord properties", "Find missing lengths", "Circle proofs", "Center-chord distance problems"]},
+        {"id": 10, "name": "Heron's Formula", "formulas": ["s=(a+b+c)/2", "Area=sqrt(s(s-a)(s-b)(s-c))"], "question_types": ["Area from three sides", "Composite area", "Reverse problems from area"]},
+        {"id": 11, "name": "Surface Areas and Volumes", "formulas": ["CSA cuboid=2h(l+b)", "TSA cuboid=2(lb+bh+hl)", "Volume cuboid=lbh", "CSA cylinder=2pi rh", "TSA cylinder=2pi r(r+h)", "Volume cylinder=pi r^2 h", "CSA cone=pi rl", "TSA cone=pi r(l+r)", "Volume cone=(1/3)pi r^2 h", "Surface area sphere=4pi r^2", "Volume sphere=(4/3)pi r^3"], "question_types": ["Direct area/volume", "Unit conversion", "Melt and recast", "Capacity comparisons"]},
+        {"id": 12, "name": "Statistics", "formulas": ["Mean=sum(values)/count", "Median=middle value in ordered data", "Mode=most frequent value"], "question_types": ["Compute mean/median/mode", "Interpret frequency table", "Compare datasets", "Read data trend"]}
+      ]
+    },
+    {
+      "grade": 10,
+      "chapters": [
+        {"id": 1, "name": "Real Numbers", "formulas": ["a=bq+r, 0<=r<b", "HCF(a,b)*LCM(a,b)=a*b (for two numbers)"], "question_types": ["Euclid division algorithm", "HCF/LCM", "Irrationality proofs", "Decimal expansion type"]},
+        {"id": 2, "name": "Polynomials", "formulas": ["For ax^2+bx+c, sum of zeroes=-b/a", "For ax^2+bx+c, product of zeroes=c/a"], "question_types": ["Find zeroes graphically", "Relationship between zeroes and coefficients", "Form polynomial from zeroes", "Verify identities"]},
+        {"id": 3, "name": "Pair of Linear Equations in Two Variables", "formulas": ["a1x+b1y+c1=0, a2x+b2y+c2=0", "Unique solution if a1/a2 != b1/b2", "No solution if a1/a2=b1/b2!=c1/c2", "Infinitely many if a1/a2=b1/b2=c1/c2"], "question_types": ["Solve by substitution/elimination", "Graphical solution", "Nature of solutions", "Word problems"]},
+        {"id": 4, "name": "Quadratic Equations", "formulas": ["x=[-b+-sqrt(b^2-4ac)]/(2a)", "Discriminant D=b^2-4ac"], "question_types": ["Solve by factorization", "Solve by formula", "Nature of roots", "Word problems"]},
+        {"id": 5, "name": "Arithmetic Progressions", "formulas": ["a_n=a+(n-1)d", "S_n=n/2[2a+(n-1)d]", "S_n=n/2(first+last)"], "question_types": ["Nth term", "Sum of n terms", "Find missing terms", "Application problems"]},
+        {"id": 6, "name": "Triangles", "formulas": ["If a line is parallel to one side of triangle, it divides other two sides proportionally", "If two triangles are similar, area ratio=(corresponding side ratio)^2"], "question_types": ["Prove similarity", "Find side lengths", "Area ratio problems", "BPT applications"]},
+        {"id": 7, "name": "Coordinate Geometry", "formulas": ["Distance=sqrt((x2-x1)^2+(y2-y1)^2)", "Section formula=((mx2+nx1)/(m+n),(my2+ny1)/(m+n))", "Midpoint=((x1+x2)/2,(y1+y2)/2)"], "question_types": ["Distance between points", "Midpoint/section", "Geometric verification"]},
+        {"id": 8, "name": "Introduction to Trigonometry", "formulas": ["sin^2A+cos^2A=1", "1+tan^2A=sec^2A", "1+cot^2A=cosec^2A"], "question_types": ["Trigonometric ratios", "Standard angle values", "Identity proofs", "Expression simplification"]},
+        {"id": 9, "name": "Applications of Trigonometry", "formulas": ["tan(theta)=opposite/adjacent", "Height=distance*tan(theta)"], "question_types": ["Heights and distances", "Angle of elevation/depression", "Word problems"]},
+        {"id": 10, "name": "Circles", "formulas": ["Tangent at a point is perpendicular to radius", "Tangents from external point are equal"], "question_types": ["Prove tangent properties", "Find lengths", "Circle theorems"]},
+        {"id": 11, "name": "Constructions", "formulas": ["Construct tangent from external point using midpoint of OP"], "question_types": ["Divide segment in ratio", "Construct similar triangles", "Construct tangents"]},
+        {"id": 12, "name": "Areas Related to Circles", "formulas": ["Area circle=pi r^2", "Circumference=2pi r", "Area sector=(theta/360)*pi r^2", "Arc length=(theta/360)*2pi r"], "question_types": ["Area of sector/segment", "Composite regions", "Perimeter with arcs"]},
+        {"id": 13, "name": "Surface Areas and Volumes", "formulas": ["Volume frustum=(1/3)pi h(R^2+r^2+Rr)", "CSA frustum=pi(R+r)l"], "question_types": ["Frustum problems", "Combined solids", "Capacity and conversion"]},
+        {"id": 14, "name": "Statistics", "formulas": ["Mean for grouped data=sum(f_i*x_i)/sum(f_i)"], "question_types": ["Mean by direct/assumed step-deviation", "Median from cumulative frequency", "Mode from histogram"]},
+        {"id": 15, "name": "Probability", "formulas": ["P(E)=favorable outcomes/total outcomes", "0<=P(E)<=1", "P(not E)=1-P(E)"], "question_types": ["Simple event probability", "Complement probability", "Dice/cards/coins"]}
+      ]
+    },
+    {
+      "grade": 11,
+      "chapters": [
+        {"id": 1, "name": "Sets", "formulas": ["n(AUB)=n(A)+n(B)-n(A∩B)", "(A')'=A"], "question_types": ["Set operations", "Venn diagram counting", "Subset and power set", "Set identities"]},
+        {"id": 2, "name": "Relations and Functions", "formulas": ["f:A->B", "Composite (fog)(x)=f(g(x))"], "question_types": ["Domain/range", "Check relation properties", "One-one/onto", "Composite functions"]},
+        {"id": 3, "name": "Trigonometric Functions", "formulas": ["sin(A+B)=sinA cosB+cosA sinB", "cos(A+B)=cosA cosB-sinA sinB", "sin2A=2sinA cosA", "cos2A=cos^2A-sin^2A"], "question_types": ["General solutions", "Identity transformations", "Simplification", "Equation solving"]},
+        {"id": 4, "name": "Principle of Mathematical Induction", "formulas": ["Base step + induction step => true for all n>=k"], "question_types": ["Prove divisibility", "Prove summation formulas", "Inequality by induction"]},
+        {"id": 5, "name": "Complex Numbers and Quadratic Equations", "formulas": ["i^2=-1", "z=a+ib", "|z|=sqrt(a^2+b^2)", "Conjugate(z)=a-ib"], "question_types": ["Algebra on complex numbers", "Argand plane", "Quadratic roots in C"]},
+        {"id": 6, "name": "Linear Inequalities", "formulas": ["If multiply/divide by negative, inequality sign flips"], "question_types": ["Solve one variable inequalities", "Solve two variable inequalities", "Graph feasible region"]},
+        {"id": 7, "name": "Permutations and Combinations", "formulas": ["nPr=n!/(n-r)!", "nCr=n!/(r!(n-r)!)", "nCr=nC(n-r)"], "question_types": ["Arrangement problems", "Selection problems", "Restriction cases"]},
+        {"id": 8, "name": "Binomial Theorem", "formulas": ["(x+y)^n=sum(k=0 to n) nCk x^(n-k)y^k", "General term T_(k+1)=nCk x^(n-k)y^k"], "question_types": ["Find specific term", "Find coefficient", "Middle term"]},
+        {"id": 9, "name": "Sequences and Series", "formulas": ["AP: a_n=a+(n-1)d", "AP sum S_n=n/2(2a+(n-1)d)", "GP: a_n=ar^(n-1)", "GP sum finite S_n=a(r^n-1)/(r-1), r!=1", "GP infinite S=a/(1-r), |r|<1"], "question_types": ["Nth term", "Sum problems", "Find means", "Convergence basics"]},
+        {"id": 10, "name": "Straight Lines", "formulas": ["y=mx+c", "y-y1=m(x-x1)", "(x/a)+(y/b)=1", "Distance from point to line=|ax1+by1+c|/sqrt(a^2+b^2)"], "question_types": ["Equation from conditions", "Angle between lines", "Distance problems", "Family of lines"]},
+        {"id": 11, "name": "Conic Sections", "formulas": ["Parabola y^2=4ax", "Ellipse x^2/a^2+y^2/b^2=1", "Hyperbola x^2/a^2-y^2/b^2=1"], "question_types": ["Identify conic", "Find focus/directrix/eccentricity", "Tangent/normal basics"]},
+        {"id": 12, "name": "Introduction to Three Dimensional Geometry", "formulas": ["Distance 3D=sqrt((x2-x1)^2+(y2-y1)^2+(z2-z1)^2)", "Section 3D=((mx2+nx1)/(m+n),(my2+ny1)/(m+n),(mz2+nz1)/(m+n))"], "question_types": ["Distance and section", "Coordinate interpretation"]},
+        {"id": 13, "name": "Limits and Derivatives", "formulas": ["lim(x->0) sinx/x=1", "d/dx (x^n)=n x^(n-1)", "d/dx (sinx)=cosx", "d/dx (cosx)=-sinx"], "question_types": ["Evaluate limits", "Differentiate standard forms", "Differentiate composite expressions"]},
+        {"id": 14, "name": "Mathematical Reasoning", "formulas": ["p=>q equivalent to (not p) or q", "not(p and q)=(not p) or (not q)"], "question_types": ["Truth tables", "Logical implication", "Converse/inverse/contrapositive"]},
+        {"id": 15, "name": "Statistics", "formulas": ["Mean=sum(f_i*x_i)/sum(f_i)", "Variance sigma^2=sum(f_i(x_i-mean)^2)/sum(f_i)"], "question_types": ["Grouped data mean", "Variance/SD", "Interpretation"]},
+        {"id": 16, "name": "Probability", "formulas": ["P(A)=n(A)/n(S)", "P(A union B)=P(A)+P(B)-P(A intersection B)"], "question_types": ["Simple probability", "Mutually exclusive events", "Independent events basics"]}
+      ]
+    },
+    {
+      "grade": 12,
+      "chapters": [
+        {"id": 1, "name": "Relations and Functions", "part": 1, "formulas": ["Composite function (fog)(x)", "Invertible iff one-one and onto"], "question_types": ["Classify relation", "Find inverse function", "Domain/range reasoning"]},
+        {"id": 2, "name": "Inverse Trigonometric Functions", "part": 1, "formulas": ["sin(sin^-1 x)=x", "tan^-1 x + tan^-1 y = tan^-1((x+y)/(1-xy)) (with conditions)"], "question_types": ["Principal value", "Simplify expressions", "Solve equations"]},
+        {"id": 3, "name": "Matrices", "part": 1, "formulas": ["(AB)^T=B^TA^T", "A(adj A)=(adj A)A=|A|I"], "question_types": ["Matrix operations", "Type of matrix", "Transpose and properties"]},
+        {"id": 4, "name": "Determinants", "part": 1, "formulas": ["|AB|=|A||B|", "Area triangle=(1/2)|x1(y2-y3)+x2(y3-y1)+x3(y1-y2)|"], "question_types": ["Evaluate determinant", "Properties and simplification", "Solve linear system by Cramer"]},
+        {"id": 5, "name": "Continuity and Differentiability", "part": 1, "formulas": ["Derivative definition f'(x)=lim(h->0) [f(x+h)-f(x)]/h", "Product rule", "Quotient rule", "Chain rule"], "question_types": ["Check continuity", "Compute derivatives", "Differentiate implicit/parametric forms"]},
+        {"id": 6, "name": "Applications of Derivatives", "part": 1, "formulas": ["Increasing if f'(x)>0", "Decreasing if f'(x)<0", "Max/min from sign change of derivative"], "question_types": ["Monotonicity", "Tangents/normals", "Maxima/minima", "Approximation"]},
+        {"id": 7, "name": "Integrals", "part": 2, "formulas": ["Integral x^n dx = x^(n+1)/(n+1)+C, n!=-1", "Integral 1/x dx = ln|x|+C", "Integral by parts: int u dv = uv-int v du"], "question_types": ["Basic integration", "Substitution", "By parts", "Partial fractions"]},
+        {"id": 8, "name": "Applications of Integrals", "part": 2, "formulas": ["Area between curves=int_a^b [f(x)-g(x)]dx"], "question_types": ["Area under curve", "Area between curves", "Geometric area problems"]},
+        {"id": 9, "name": "Differential Equations", "part": 2, "formulas": ["dy/dx=f(x)", "General solution includes constant C", "Variable separable: dy/g(y)=f(x)dx"], "question_types": ["Form differential equation", "Solve variable separable", "Initial value problems"]},
+        {"id": 10, "name": "Vector Algebra", "part": 2, "formulas": ["a.b=|a||b|cos(theta)", "|a x b|=|a||b|sin(theta)", "Projection of a on b=(a.b)/|b|"], "question_types": ["Dot/cross product", "Angle between vectors", "Area using cross product"]},
+        {"id": 11, "name": "Three Dimensional Geometry", "part": 2, "formulas": ["Line in vector form r=a+lambda b", "Distance point-plane=|ax1+by1+cz1+d|/sqrt(a^2+b^2+c^2)"], "question_types": ["Equation of line/plane", "Angle and distance", "Shortest distance problems"]},
+        {"id": 12, "name": "Linear Programming", "part": 2, "formulas": ["Objective function Z=ax+by", "Optimum occurs at feasible region corner points"], "question_types": ["Feasible region graph", "Max/min objective", "Real-life optimization"]},
+        {"id": 13, "name": "Probability", "part": 2, "formulas": ["P(A|B)=P(A intersection B)/P(B)", "P(A union B)=P(A)+P(B)-P(A intersection B)", "Bayes theorem", "E(X)=sum x_i p_i"], "question_types": ["Conditional probability", "Bayes theorem", "Random variable and expectation", "Binomial distribution basics"]}
+      ]
+    }
+  ]
+}

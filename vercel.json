@@ -1,0 +1,5 @@
+{
+  "installCommand": "npm install --prefix nexus-math-weaver",
+  "buildCommand": "npm --prefix nexus-math-weaver run build",
+  "outputDirectory": "nexus-math-weaver/dist"
+}

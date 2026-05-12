@@ -1,0 +1,1027 @@
+{
+ "chunks": [
+  {
+   "grade": 9,
+   "chapter_id": 1,
+   "chapter": "Number System",
+   "part": 1,
+   "formulas": [
+    "a^m*a^n=a^(m+n)",
+    "a^m/a^n=a^(m-n), a!=0",
+    "(a^m)^n=a^(mn)",
+    "(ab)^m=a^m b^m",
+    "(a/b)^m=a^m/b^m, b!=0"
+   ],
+   "question_types": [
+    "Classify rational and irrational numbers",
+    "Simplify exponent expressions",
+    "Represent numbers on number line",
+    "Rationalize denominator",
+    "Convert recurring decimal to fraction"
+   ],
+   "source_pdf": "class 9\\iemh101.pdf",
+   "text_excerpt": "NUMBER SYSTEMS 1\nCHAPTER 1\nNUMBER SYSTEMS\n1.1 Introduction\nIn your earlier classes, you have learnt about the number line and how to represent\nvarious types of numbers on it (see Fig. 1.1).\nFig. 1.1 : The number line\nJust imagine you start from zero and go on walking along this number line in the\npositive direction. As far as your eyes can see, there are numbers, numbers and\nnumbers!\nFig. 1.2\nNow suppose you start walking along the number line, and collecting some of the\nnumbers. Get a bag ready to store them!\nReprint 2025-26\n2 MATHEMA TICS\n3\n-40166\n22-752190Z\n 3\n4016\n745\n2\n60142258\n0-3-757\n-66-21-40\n3171\n3\n4016\n745 2\n60129580\nW\n9\n4016\n745\n2601465258\n0311\n7110NYou might begin with picking up only natural\nnumbers like 1, 2, 3, and so on. You know that this list\ngoes on for ever . (Why is this true?) So, now your\nbag contains infinitely many natural numbers! Recall\nthat we denote this collection by the symbol N.\nNow turn and walk all the way back, pick up\nzero and put it into the bag. You now have the\ncollection of whole numbers which is denoted by\nthe symbol W.\nNow , stretching in front of you are many , many negative integers. Put all the\nnegative integers into your bag. What is your new collection? Recall that it is the\ncollection of all integers , and it is denoted by the symbol Z.\nAre there some numbers still left on the line? Of course! There are numbers like\n1 3,\n2 4, or even 2005\n2006−. If you put all such numbers also into the bag, it will now be theZ comes from the\nGerman word\n“zahlen”, which means\n“to coun t”.\nQ\n–6721\n121\n3\n–1\n981\n161\n420052006–12\n139\n14–6625\n-65\n601919\n9990–6727 58\n200\n52006\n3\n–516\n60999\n4\n–8–662558\n0\n277117\n981\n–12\n13\n89–6\n7\n2\n39\n14–Why Z ?\nReprint 2025-26\nNUMBER SYSTEMS 3\ncollection of rational numbers. The collection of rational numbers is denoted by Q.\n‘Rational’ comes from the word ‘ratio’, and Q comes from the word ‘quotient’.\nYou may recall the definition of rational numbers:\nA number ‘ r’ is called a rational number , if it can be written in the form p\nq,\nwhere p and q are integers and q ≠ 0. (Why do we insist that q ≠ 0?)\nNotice that all the numbers now in the bag can be written in the form p\nq, where p\nand q are integers and q ≠ 0. For example, –25 can be written as 25;1− here p = –25\nand q = 1. Therefore, the rational numbers also include the natural numbers, whole\nnumbers and integers.\nYou also know that the rational numbers do not have a unique representation in\nthe form p\nq, where p and q are integers and q ≠ 0. For"
+  },
+  {
+   "grade": 9,
+   "chapter_id": 2,
+   "chapter": "Polynomials",
+   "part": 1,
+   "formulas": [
+    "(a+b)^2=a^2+2ab+b^2",
+    "(a-b)^2=a^2-2ab+b^2",
+    "a^2-b^2=(a-b)(a+b)",
+    "(x+a)(x+b)=x^2+(a+b)x+ab"
+   ],
+   "question_types": [
+    "Find degree and coefficients",
+    "Evaluate polynomial",
+    "Find zeroes",
+    "Expand using identities",
+    "Factorize using identities"
+   ],
+   "source_pdf": "class 9\\iemh102.pdf",
+   "text_excerpt": "POLYNOMIALS 25\nCHAPTER 2\nPOL YNOMIALS\n2.1 Introduction\nYou have studied algebraic expressions, their addition, subtraction, multiplication and\ndivision in earlier classes. You also have studied how to factorise some algebraic\nexpressions. You may recall the algebraic identities :\n(x + y)2 =x2 + 2xy + y2\n(x – y)2 =x2 – 2xy + y2\nand x2 – y2 =(x + y) (x – y)\nand their use in factorisation. In this chapter , we shall start our study with a particular\ntype of algebraic expression, called polynomial, and the terminology related to it. We\nshall also study the Remainder Theor em and Factor Theor em and their use in the\nfactorisation of polynomials. In addition to the above, we shall study some more algebraic\nidentities and their use in factorisation and in evaluating some given expressions.\n2.2 Polynomials in One Variable\nLet us begin by recalling that a variable is denoted by a symbol that can take any real\nvalue. We use the letters x, y, z, etc. to denote variables. Notice that 2 x, 3x, – x, –1\n2x\nare algebraic expressions. All these expressions are of the form (a constant) × x. Now\nsuppose we want to write an expression which is (a constant) × (a variable) and we do\nnot know what the constant is. In such cases, we write the constant as a, b, c, etc. So\nthe expression will be ax , say.\nHowever , there is a dif ference between a letter denoting a constant and a letter\ndenoting a variable. The values of the constants remain the same throughout a particular\nsituation, that is, the values of the constants do not change in a given problem, but the\nvalue of a variable can keep changing.\nReprint 2025-26\n26 MATHEMA TICS\nNow , consider a square of side 3 units (see Fig. 2.1).\nWhat is its perimeter? You know that the perimeter of a square\nis the sum of the lengths of its four sides. Here, each side is\n3 units. So, its perimeter is 4 × 3, i.e., 12 units. What will be the\nperimeter if each side of the square is 10 units? The perimeter\nis 4 × 10, i.e., 40 units. In case the length of each side is x\nunits (see Fig. 2.2), the perimeter is given by 4 x units. So, as\nthe length of the side varies, the perimeter varies.\nCan you find the area of the square PQRS? It is\nx × x = x2 square units. x2 is an algebraic expression. You are\nalso familiar with other algebraic expressions like\n2x, x2 + 2x,x3 – x2 + 4x + 7. Note that, all the algebraic\nexpressions we have considered so far have only whole\nnumbers as the exponents of the variable. Expressions of this\nform are called polynomials"
+  },
+  {
+   "grade": 9,
+   "chapter_id": 3,
+   "chapter": "Coordinate Geometry",
+   "part": 1,
+   "formulas": [
+    "Origin=(0,0)",
+    "On x-axis y=0",
+    "On y-axis x=0"
+   ],
+   "question_types": [
+    "Plot points",
+    "Identify quadrant",
+    "Identify axis",
+    "Reflect points"
+   ],
+   "source_pdf": "class 9\\iemh103.pdf",
+   "text_excerpt": "CHAPTER 3\nCOORDINA TE GEOMETR Y\nWhat’ s the good of Mercator ’s North Poles and Equators, Tropics, Zones and\nMeridian Lines?’ So the Bellman would cry; and crew would reply ‘ They are\nmerely conventional signs!’\nLEWIS CARROLL , The Hunting of the Snark\n3.1 Introduction\nYou have already studied how to locate a point on a number line. You also know how\nto describe the position of a point on the line. There are many other situations, in which\nto find a point we are required to describe its position with reference to more than one\nline. For example, consider the following situations:\nI. In Fig. 3.1, there is a main road running\nin the East-W est direction and streets with\nnumbering from West to East. Also, on each\nstreet, house numbers are marked. To look for\na friend’ s house here, is it enough to know only\none reference point? For instance, if we only\nknow that she lives on Street 2, will we be able\nto find her house easily? Not as easily as when\nwe know two pieces of information about it,\nnamely , the number of the street on which it is\nsituated, and the house number . If we want to\nreach the house which is situated in the 2nd\nstreet and has the number 5, first of all we\nwould identify the 2nd street and then the house\nnumbered 5 on it. In Fig. 3.1, H shows the\nlocation of the house. Similarly , P shows the\nlocation of the house corresponding to Street\nnumber 7 and House number 4.Fig. 3.1\nReprint 2025-26\n44 MATHEMA TICS\nII. Suppose you put a dot on a sheet of paper [Fig.3.2 (a)]. If we ask you to tell us\nthe position of the dot on the paper , how will you do this? Perhaps you will try in some\nsuch manner: “The dot is in the upper half of the paper”, or “It is near the left edge of\nthe paper”, or “It is very near the left hand upper corner of the sheet”. Do any of\nthese statements fix the position of the dot precisely? No! But, if you say “ The dot is\nnearly 5 cm away from the left edge of the paper”, it helps to give some idea but still\ndoes not fix the position of the dot. A little thought might enable you to say that the dot\nis also at a distance of 9 cm above the bottom line. We now know exactly where the dot is!\nFig. 3.2\nFor this purpose, we fixed the position of the dot by specifying its distances from two\nfixed lines, the left edge of the paper and the bottom line of the paper [Fig.3.2 (b)]. In\nother words, we need two independent informations for finding the position of the dot.\nNow , perform the following classroom activity known as ‘Seating Plan’.\n"
+  },
+  {
+   "grade": 9,
+   "chapter_id": 4,
+   "chapter": "Linear Equations in Two Variables",
+   "part": 1,
+   "formulas": [
+    "ax+by+c=0"
+   ],
+   "question_types": [
+    "Check ordered pair solution",
+    "Generate solution table",
+    "Draw graph",
+    "Convert statement to equation"
+   ],
+   "source_pdf": "class 9\\iemh104.pdf",
+   "text_excerpt": "LINEAR EQUA TIONS IN TWO VARIABLES 55\nCHAPTER 4\nLINEAR EQUA TIONS IN TWO VARIABLES\nThe principal use of the Analytic Art is to bring Mathematical Problems to\nEquations and to exhibit those Equations in the most simple terms that can be.\n—Edmund Halley\n4.1 Introduction\nIn earlier classes, you have studied linear equations in one variable. Can you write\ndown a linear equation in one variable? You may say that x + 1 = 0, x + 2 = 0 and\n2y + 3 = 0 are examples of linear equations in one variable. You also know that\nsuch equations have a unique (i.e., one and only one) solution. You may also remember\nhow to represent the solution on a number line. In this chapter , the knowledge of linear\nequations in one variable shall be recalled and extended to that of two variables. You\nwill be considering questions like: Does a linear equation in two variables have a\nsolution? If yes, is it unique? What does the solution look like on the Cartesian plane?\nYou shall also use the concepts you studied in Chapter 3 to answer these questions.\n4.2 Linear Equations\nLet us first recall what you have studied so far . Consider the following equation:\n2x + 5 = 0\nIts solution, i.e., the root of the equation, is 5\n2−. This can be represented on the\nnumber line as shown below:\nFig. 4.1\nReprint 2025-26\n56 MATHEMA TICS\nWhile solving an equation, you must always keep the following points in mind:\nThe solution of a linear equation is not affected when:\n(i)the same number is added to (or subtracted from) both the sides of the equation.\n(ii)you multiply or divide both the sides of the equation by the same non-zero\nnumber .\nLet us now consider the following situation:\nIn a One-day International Cricket match between India and Sri Lanka played in\nNagpur , two Indian batsmen together scored 176 runs. Express this information in the\nform of an equation.\nHere, you can see that the score of neither of them is known, i.e., there are two\nunknown quantities. Let us use x and y to denote them. So, the number of runs scored\nby one of the batsmen is x, and the number of runs scored by the other is y. We know\nthat\nx + y =176,\nwhich is the required equation.\nThis is an example of a linear equation in two variables. It is customary to denote\nthe variables in such equations by x and y, but other letters may also be used. Some\nexamples of linear equations in two variables are:\n1.2s + 3t = 5, p + 4q =7, πu + 5v = 9 and 3 = 2x – 7y.\nNote that you can put these equations in the form 1.2 s + 3 t – 5 = 0,\np + 4q – 7"
+  },
+  {
+   "grade": 9,
+   "chapter_id": 5,
+   "chapter": "Introduction to Euclid's Geometry",
+   "part": 1,
+   "formulas": [
+    "Things equal to the same thing are equal",
+    "Whole is greater than part"
+   ],
+   "question_types": [
+    "State axioms and postulates",
+    "Differentiate axiom/theorem",
+    "Apply common notions"
+   ],
+   "source_pdf": "class 9\\iemh105.pdf",
+   "text_excerpt": "60 MATHEMA TICS\nCHAPTER 5\nINTRODUCTION T O EUCLID’S GEOMETR Y\n5.1 Introduction\nThe word ‘geometry’ comes form the Greek words ‘geo’, meaning the ‘earth’,\nand ‘metrein’, meaning ‘to measure’. Geometry appears to have originated from\nthe need for measuring land. This branch of mathematics was studied in various\nforms in every ancient civilisation, be it in Egypt, Babylonia, China, India, Greece,\nthe Incas, etc. The people of these civilisations faced several practical problems\nwhich required the development of geometry in various ways.\nFor example, whenever the river Nile\noverflowed, it wiped out the boundaries between\nthe adjoining fields of dif ferent land owners. After\nsuch flooding, these boundaries had to be\nredrawn. For this purpose, the Egyptians\ndeveloped a number of geometric techniques and\nrules for calculating simple areas and also for\ndoing simple constructions. The knowledge of\ngeometry was also used by them for computing\nvolumes of granaries, and for constructing canals\nand pyramids. They also knew the correct formula\nto find the volume of a truncated pyramid (see\nFig. 5.1).Y ou know that a pyramid is a solid figure,\nthe base of which is a triangle, or square, or some\nother polygon, and its side faces are triangles\nconverging to a point at the top.Fig. 5.1 : A Truncated Pyramid\nReprint 2025-26\nINTRODUCTION TO EUCLID ’S GEOMETRY 61\nIn the Indian subcontinent, the excavations at Harappa and Mohenjo-Daro, etc.\nshow that the Indus Valley Civilisation (about 3000 BCE) made extensive use of\ngeometry . It was a highly or ganised society . The cities were highly developed and\nvery well planned. For example, the roads were parallel to each other and there was\nan underground drainage system. The houses had many rooms of different types. This\nshows that the town dwellers were skilled in mensuration and practical arithmetic.\nThe bricks used for constructions were kiln fired and the ratio length : breadth : thickness,\nof the bricks was found to be 4 : 2 : 1.\nIn ancient India, the Sulbasutras (800 BCE to 500 BCE) were the manuals of\ngeometrical constructions. The geometry of the Vedic period originated with the\nconstruction of altars (or vedis ) and fireplaces for performing Vedic rites. The location\nof the sacred fires had to be in accordance to the clearly laid down instructions about\ntheir shapes and areas, if they were to be effective instruments. Square and circular\naltars were used for household rituals, while altars whose shapes were combinations\nof r"
+  },
+  {
+   "grade": 9,
+   "chapter_id": 6,
+   "chapter": "Lines and Angles",
+   "part": 1,
+   "formulas": [
+    "Linear pair sum=180 deg",
+    "Vertically opposite angles are equal",
+    "Corresponding angles equal for parallel lines",
+    "Interior angles on same side are supplementary"
+   ],
+   "question_types": [
+    "Find missing angles",
+    "Prove lines parallel",
+    "Use transversal angle relations",
+    "Angle chase proofs"
+   ],
+   "source_pdf": "class 9\\iemh106.pdf",
+   "text_excerpt": "CHAPTER 6\nLINES AND ANGLES\n6.1 Introduction\nIn Chapter 5, you have studied that a minimum of two points are required to draw a\nline. You have also studied some axioms and, with the help of these axioms, you\nproved some other statements. In this chapter , you will study the properties of the\nangles formed when two lines intersect each other , and also the properties of the\nangles formed when a line intersects two or more parallel lines at distinct points.\nFurther you will use these properties to prove some statements using deductive reasoning\n(see Appendix 1). You have already verified these statements through some activities\nin the earlier classes.\nIn your daily life, you see different types of angles formed between the edges of\nplane surfaces. For making a similar kind of model using the plane surfaces, you need\nto have a thorough knowledge of angles. For instance, suppose you want to make a\nmodel of a hut to keep in the school exhibition using bamboo sticks. Imagine how you\nwould make it? You would keep some of the sticks parallel to each other , and some\nsticks would be kept slanted. Whenever an architect has to draw a plan for a multistoried\nbuilding, she has to draw intersecting lines and parallel lines at dif ferent angles. Without\nthe knowledge of the properties of these lines and angles, do you think she can draw\nthe layout of the building?\nIn science, you study the properties of light by drawing the ray diagrams.\nFor example, to study the refraction property of light when it enters from one medium\nto the other medium, you use the properties of intersecting lines and parallel lines.\nWhen two or more forces act on a body , you draw the diagram in which forces are\nrepresented by directed line segments to study the net effect of the forces on the\nbody . At that time, you need to know the relation between the angles when the rays\n(or line segments) are parallel to or intersect each other . To find the height of a tower\nor to find the distance of a ship from the light house, one needs to know the angle\nReprint 2025-26\n70 MATHEMA TICS\nformed between the horizontal and the line of sight. Plenty of other examples can be\ngiven where lines and angles are used. In the subsequent chapters of geometry , you\nwill be using these properties of lines and angles to deduce more and more useful\nproperties.\nLet us first revise the terms and definitions related to lines and angles learnt in\nearlier classes.\n6.2 Basic Terms and Definitions\nRecall that a part (or portion)"
+  },
+  {
+   "grade": 9,
+   "chapter_id": 7,
+   "chapter": "Triangles",
+   "part": 1,
+   "formulas": [
+    "Angle sum of triangle=180 deg",
+    "Exterior angle equals sum of opposite interior angles",
+    "Congruence rules: SSS, SAS, ASA, RHS"
+   ],
+   "question_types": [
+    "Congruence proofs",
+    "Find unknown side/angle",
+    "Use exterior angle theorem",
+    "Triangle inequality reasoning"
+   ],
+   "source_pdf": "class 9\\iemh107.pdf",
+   "text_excerpt": "CHAPTER 7\nTRIANGLES\n7.1 Introduction\nYou have studied about triangles and their various properties in your earlier classes.\nYou know that a closed figure formed by three intersecting lines is called a triangle.\n(‘Tri’ means ‘three’). A triangle has three sides, three angles and three vertices. For\nexample, in triangle ABC, denoted as ∆ ABC (see Fig. 7.1); AB, BC, CA are the three\nsides, ∠ A, ∠ B, ∠ C are the three angles and A, B, C are three vertices.\nIn Chapter 6, you have also studied some properties\nof triangles. In this chapter , you will study in details\nabout the congruence of triangles, rules of congruence,\nsome more properties of triangles and inequalities in\na triangle. You have already verified most of these\nproperties in earlier classes. We will now prove some\nof them.\n7.2 Congruence of Triangles\nYou must have observed that two copies of your photographs of the same size are\nidentical. Similarly , two bangles of the same size, two ATM cards issued by the same\nbank are identical. You may recall that on placing a one rupee coin on another minted\nin the same year , they cover each other completely .\nDo you remember what such figures are called? Indeed they are called congruent\nfigures (‘congruent’ means equal in all respects or figures whose shapes and sizes\nare both the same).\nNow , draw two circles of the same radius and place one on the other . What do\nyou observe? They cover each other completely and we call them as congruent circles.Fig. 7.1\nReprint 2025-26\n84 MATHEMA TICS\nRepeat this activity by placing one\nsquare on the other with sides of the same\nmeasure (see Fig. 7.2) or by placing two\nequilateral triangles of equal sides on each\nother . You will observe that the squares are\ncongruent to each other and so are the\nequilateral triangles.\nYou may wonder why we are studying congruence. You all must have seen the ice\ntray in your refrigerator . Observe that the moulds for making ice are all congruent.\nThe cast used for moulding in the tray also has congruent depressions (may be all are\nrectangular or all circular or all triangular). So, whenever identical objects have to be\nproduced, the concept of congruence is used in making the cast.\nSometimes, you may find it difficult to replace the refill in your pen by a new one\nand this is so when the new refill is not of the same size as the one you want to\nremove. Obviously , if the two refills are identical or congruent, the new refill fits.\nSo, you can find numerous examples where congruence of ob"
+  },
+  {
+   "grade": 9,
+   "chapter_id": 8,
+   "chapter": "Quadrilaterals",
+   "part": 1,
+   "formulas": [
+    "Sum of interior angles=360 deg",
+    "Opposite sides of parallelogram are equal",
+    "Opposite angles of parallelogram are equal",
+    "Diagonals bisect each other in parallelogram"
+   ],
+   "question_types": [
+    "Classify quadrilateral",
+    "Find unknown angle",
+    "Prove parallelogram",
+    "Use midpoint theorem"
+   ],
+   "source_pdf": "class 9\\iemh108.pdf",
+   "text_excerpt": "104 MATHEMA TICS\nCHAPTER 8\nQUADRILA TERALS\n8.1 Properties of a Parallelogram\nYou have already studied quadrilaterals and their types in Class VIII. A quadrilateral\nhas four sides, four angles and four vertices. A parallelogram is a quadrilateral in\nwhich both pairs of opposite sides are parallel.\nLet us perform an activity .\nCut out a parallelogram from a sheet of paper\nand cut it along a diagonal (see Fig. 8.1). You obtain\ntwo triangles. What can you say about these\ntriangles?\nPlace one triangle over the other . Turn one around,\nif necessary . What do you observe?\nObserve that the two triangles are congruent to\neach other .\nRepeat this activity with some more parallelograms. Each time you will observe\nthat each diagonal divides the parallelogram into two congruent triangles.\nLet us now prove this result.\nTheorem 8.1 : A diagonal of a parallelogram divides it into two congruent\ntriangles .\nProof : Let ABCD be a parallelogram and AC be a diagonal (see Fig. 8.2). Observe\nthat the diagonal AC divides parallelogram ABCD into two triangles, namely , ∆ ABC\nand ∆ CDA. We need to prove that these triangles are congruent.\nFig. 8.1\nReprint 2025-26\nQUADRILA TERALS 105\nIn ∆ ABC and ∆ CDA, note that BC || AD and AC is a transversal.\nSo, ∠ BCA = ∠ DAC (Pair of alternate angles)\nAlso, AB || DC and AC is a transversal.\nSo, ∠ BAC = ∠ DCA (Pair of alternate angles)\nand AC = CA (Common)\nSo, ∆ ABC ≅ ∆ CDA (ASA rule)\nor,diagonal AC divides parallelogram ABCD into two congruent\ntriangles ABC and CDA.\nNow , measure the opposite sides of parallelogram ABCD. What do you observe?\nYou will find that AB = DC and AD = BC.\nThis is another property of a parallelogram stated below:\nTheor em 8.2 : In a parallelogram, opposite sides ar e equal .\nYou have already proved that a diagonal divides the parallelogram into two congruent\ntriangles; so what can you say about the corresponding parts say , the corresponding\nsides? They are equal.\nSo, AB = DC and AD = BC\nNow what is the converse of this result? You already know that whatever is given\nin a theorem, the same is to be proved in the converse and whatever is proved in the\ntheorem it is given in the converse. Thus, Theorem 8.2 can be stated as given below :\nIf a quadrilateral is a parallelogram, then each pair of its opposite sides is equal. So\nits converse is :\nTheorem 8.3 : If each pair of opposite sides of a quadrilateral is equal, then it\nis a parallelogram .\nCan you reason out why?\nLet sides AB and CD of the quadrilateral ABCD\nbe equal "
+  },
+  {
+   "grade": 9,
+   "chapter_id": 9,
+   "chapter": "Circles",
+   "part": 1,
+   "formulas": [
+    "Equal chords subtend equal angles at center",
+    "Perpendicular from center to chord bisects chord",
+    "Equal chords are equidistant from center"
+   ],
+   "question_types": [
+    "Apply chord properties",
+    "Find missing lengths",
+    "Circle proofs",
+    "Center-chord distance problems"
+   ],
+   "source_pdf": "class 9\\iemh109.pdf",
+   "text_excerpt": "116 MATHEMA TICS\nCHAPTER 9\nCIRCLES\n9.1 Angle Subtended by a Chord at a Point\nYou have already studied about circles and its parts in Class VI.\nTake a line segment PQ and a point R not on the line containing PQ. Join PR and QR\n(see Fig. 9.1). Then ∠ PRQ is called the angle subtended by the line segment PQ at\nthe point R. What are angles POQ, PRQ and PSQ called in Fig. 9.2? ∠ POQ is the\nangle subtended by the chord PQ at the centre O, ∠ PRQ and ∠ \nPSQ are respectively\nthe angles subtended by PQ at points R and S on the major and minor arcs PQ.\nFig. 9.1 Fig. 9.2\nLet us examine the relationship between the size of the chord and the angle\nsubtended by it at the centre. You may see by drawing dif ferent chords of a circle\nand angles subtended by them at the centre that the longer is the chord, the bigger\nwill be the angle subtended by it at the centre. What will happen if you take two\nequal chords of a circle? Will the angles subtended at the centre be the same\nor not?\nReprint 2025-26\nCIRCLES 117\nDraw two or more equal chords of a circle and\nmeasure the angles subtended by them at the centre\n(see Fig.9.3). You will find that the angles subtended\nby them at the centre are equal. Let us give a proof\nof this fact.\nTheor em 9.1 : Equal chor ds of a cir cle subtend\nequal angles at the centr e.\nProof : You are given two equal chords AB and CD\nof a circle with centre O (see Fig.9.4). \nYou want to\nprove that ∠ AOB = ∠ COD.\nIn triangles AOB and COD,\nOA = OC (Radii of a circle)\nOB = OD (Radii of a circle)\nAB = CD (Given)\nTherefore, ∆ AOB ≅∆ COD (SSS rule)\nThis gives ∠ AOB = ∠ COD\n (Corresponding parts of congruent triangles)\nRemark : For convenience, the abbreviation CPCT will be used in place of\n‘Corresponding parts of congruent triangles’, because we use this very frequently as\nyou will see.\nNow if two chords of a circle subtend equal angles at the centre, what can you\nsay about the chords? Are they equal or not? Let us examine this by the following\nactivity:\nTake a tracing paper and trace a circle on it. Cut\nit along the circle to get a disc. At its centre O, draw\nan angle AOB where A, B are points on the circle.\nMake another angle POQ at the centre equal to\n∠AOB. Cut the disc along AB and PQ\n(see Fig. 9.5). You will get two segments ACB and\nPRQ of the circle. If you put one on the other , what\ndo you observe? They cover each other , i.e., they\nare congruent. So AB = PQ.Fig. 9.3\nFig. 9.4\nFig. 9.5\nReprint 2025-26\n118 MATHEMA TICS\nThough you have seen it for this particu"
+  },
+  {
+   "grade": 9,
+   "chapter_id": 10,
+   "chapter": "Heron's Formula",
+   "part": 1,
+   "formulas": [
+    "s=(a+b+c)/2",
+    "Area=sqrt(s(s-a)(s-b)(s-c))"
+   ],
+   "question_types": [
+    "Area from three sides",
+    "Composite area",
+    "Reverse problems from area"
+   ],
+   "source_pdf": "class 9\\iemh110.pdf",
+   "text_excerpt": "CHAPTER 10\nHERON’S FORMULA\n10.1 Area of a Triangle — by Her on’s Formula\nWe know that the area of triangle when its height is given, is 1\n2 × base × height. Now\nsuppose that we know the lengths of the sides of a scalene triangle and not the height.\nCan you still find its area? For instance, you have a triangular park whose sides are 40\nm, 32 m, and 24 m. How will you calculate its area? Definitely if you want to apply the\nformula, you will have to calculate its height. But we do not have a clue to calculate\nthe height. Try doing so. If you are not able to get it, then go to the next section.\nHeron was born in about 10AD possibly in Alexandria in\nEgypt. He worked in applied mathematics. His works on\nmathematical and physical subjects are so numerous and\nvaried that he is considered to be an encyclopedic writer\nin these fields. His geometrical works deal largely with\nproblems on mensuration written in three books. Book I\ndeals with the area of squares, rectangles, triangles,\ntrapezoids (trapezia), various other specialised\nquadrilaterals, the regular polygons, circles, surfaces of\ncylinders, cones, spheres etc. In this book, Heron has\nderived the famous formula for the area of a triangle in\nterms of its three sides.\nThe formula given by Heron about the area of a triangle, is also known as Hero’s\nformula . It is stated as:\nArea of a triangle = ( ) ( ) ( )s s a s b s c− − − (I)\nHeron (10 C.E. – 75 C.E.)\nFig. 10.1\nReprint 2025-26\n132 MATHEMA TICS\nwher e a, b and c ar e the sides of the triangle , and s = semi-perimeter , i.e., half the\nperimeter of the triangle = 2a b c+ +,\nThis formula is helpful where it is not possible to find the height of the triangle\neasily . Let us apply it to calculate the area of the triangular park ABC, mentioned\nabove (see Fig. 10.2).\nLet us take a = 40 m, b = 24 m, c = 32 m,\nso that we have s = 40 24 32\n2+ + m = 48 m.\ns – a = (48 – 40) m = 8 m,\ns – b = (48 – 24) m = 24 m,\ns – c = (48 – 32) m = 16 m.\nTherefore, area of the park ABC\n= ( ) ( ) ( )− − −s s a s b s c\n= 2 248 8 24 16 m 384m× × × =\nWe see that 322 + 242 = 1024 + 576 = 1600 = 402. Therefore, the sides of the park\nmake a right triangle. The largest side, i.e., BC which is 40 m will be the hypotenuse\nand the angle between the sides AB and AC will be 90°.\nWe can check that the area of the park is 1\n2 × 32 × 24 m2 = 384 m2.\nWe find that the area we have got is the same as we found by using Heron’ s\nformula.\nNow using Heron’ s formula, you verify this fact by finding the areas o"
+  },
+  {
+   "grade": 9,
+   "chapter_id": 11,
+   "chapter": "Surface Areas and Volumes",
+   "part": 1,
+   "formulas": [
+    "CSA cuboid=2h(l+b)",
+    "TSA cuboid=2(lb+bh+hl)",
+    "Volume cuboid=lbh",
+    "CSA cylinder=2pi rh",
+    "TSA cylinder=2pi r(r+h)",
+    "Volume cylinder=pi r^2 h",
+    "CSA cone=pi rl",
+    "TSA cone=pi r(l+r)",
+    "Volume cone=(1/3)pi r^2 h",
+    "Surface area sphere=4pi r^2",
+    "Volume sphere=(4/3)pi r^3"
+   ],
+   "question_types": [
+    "Direct area/volume",
+    "Unit conversion",
+    "Melt and recast",
+    "Capacity comparisons"
+   ],
+   "source_pdf": "class 9\\iemh111.pdf",
+   "text_excerpt": "SURF ACE AREAS AND VOLUMES 137\nCHAPTER 11\nSURF ACE AREAS AND VOLUMES\n11.1 Surface Area of a Right Cir cular Cone\nWe have already studied the surface areas of cube, cuboid and cylinder . We will now\nstudy the surface area of cone.\nSo far , we have been generating solids by stacking up congruent figures. Incidentally ,\nsuch figures are called prisms . Now let us look at another kind of solid which is not a\nprism (These kinds of solids are called pyramids. ). Let us see how we can generate\nthem.\nActivity : Cut out a right-angled triangle ABC right angled at B. Paste a long thick\nstring along one of the perpendicular sides say AB of the triangle [see Fig. 1 1.1(a)].\nHold the string with your hands on either sides of the triangle and rotate the triangle\nabout the string a number of times. What happens? Do you recognize the shape that\nthe triangle is forming as it rotates around the string [see Fig. 1 1.1(b)]? Does it remind\nyou of the time you had eaten an ice-cream heaped into a container of that shape [see\nFig. 1 1.1 (c) and (d)]?\nFig. 1 1.1\nReprint 2025-26\n138 MATHEMA TICS\nThis is called a right cir cular cone . In Fig. 1 1.1(c)\nof the right circular cone, the point A is called the\nvertex, AB is called the height, BC is called the radius\nand AC is called the slant height of the cone. Here B\nwill be the centre of circular base of the cone. The\nheight, radius and slant height of the cone are usually\ndenoted by h, r and l respectively . Once again, let us\nsee what kind of cone we can not call a right circular\ncone. Here, you are (see Fig. 1 1.2)! What you see in\nthese figures are not right circular cones; because in\n(a), the line joining its vertex to the centre of its base\nis not at right angle to the base, and in (b) the base is\nnot circular .\nAs in the case of cylinder , since we will be studying only about right circular cones,\nremember that by ‘cone’ in this chapter , we shall mean a ‘right circular cone.’\nActivity : (i) Cut out a neatly made paper cone that does not have any overlapped\npaper , straight along its side, and opening it out, to see the shape of paper that forms\nthe surface of the cone. (The line along which you cut the cone is the slant height of\nthe cone which is represented by l). It looks like a part of a round cake.\n(ii) If you now bring the sides marked A and B at the tips together , you can see that\nthe curved portion of Fig. 1 1.3 (c) will form the circular base of the cone.\nFig. 1 1.3\n(iii) If the paper like the one in Fig. 1 1.3 (c) "
+  },
+  {
+   "grade": 9,
+   "chapter_id": 12,
+   "chapter": "Statistics",
+   "part": 1,
+   "formulas": [
+    "Mean=sum(values)/count",
+    "Median=middle value in ordered data",
+    "Mode=most frequent value"
+   ],
+   "question_types": [
+    "Compute mean/median/mode",
+    "Interpret frequency table",
+    "Compare datasets",
+    "Read data trend"
+   ],
+   "source_pdf": "class 9\\iemh112.pdf",
+   "text_excerpt": "STATISTICS 151\nCHAPTER 12\nSTATISTICS\n12.1 Graphical Representation of Data\nThe representation of data by tables has already been discussed. Now let us turn our\nattention to another representation of data, i.e., the graphical representation. It is well\nsaid that one picture is better than a thousand words. Usually comparisons among the\nindividual items are best shown by means of graphs. The representation then becomes\neasier to understand than the actual data. We shall study the following graphical\nrepresentations in this section.\n(A)Bar graphs\n(B)Histograms of uniform width, and of varying widths\n(C)Frequency polygons\n(A) Bar Graphs\nIn earlier classes, you have already studied and constructed bar graphs. Here we\nshall discuss them through a more formal approach. Recall that a bar graph is a\npictorial representation of data in which usually bars of uniform width are drawn with\nequal spacing between them on one axis (say , the x-axis), depicting the variable. The\nvalues of the variable are shown on the other axis (say , the y-axis) and the heights of\nthe bars depend on the values of the variable.\nExample 1 : In a particular section of Class IX, 40 students were asked about the\nmonths of their birth and the following graph was prepared for the data so obtained:\nReprint 2025-26\n152 MATHEMA TICS\nFig. 12.1\nObserve the bar graph given above and answer the following questions:\n(i) How many students were born in the month of November?\n(ii) In which month were the maximum number of students born?\nSolution : Note that the variable here is the ‘month of birth’, and the value of the\nvariable is the ‘Number of students born’.\n(i) 4 students were born in the month of November .\n(ii) The Maximum number of students were born in the month of August.\nLet us now recall how a bar graph is constructed by considering the following example.\nExample 2 : A family with a monthly income of ` 20,000 had planned the following\nexpenditures per month under various heads:\nTable 12.1\nHeads Expenditure\n(in thousand rupees)\nGrocery 4\nRent 5\nEducation of children 5\nMedicine 2\nFuel 2\nEntertainment 1\nMiscellaneous 1\nDraw a bar graph for the data above.\nReprint 2025-26\nSTATISTICS 153\nSolution : We draw the bar graph of this data in the following steps. Note that the unit\nin the second column is thousand rupees. So, ‘4’ against ‘grocery’ means `4000.\n1.We represent the Heads (variable) on the horizontal axis choosing any scale,\nsince the width of the bar is not important. But for clarity , we tak"
+  },
+  {
+   "grade": 10,
+   "chapter_id": 1,
+   "chapter": "Real Numbers",
+   "part": 1,
+   "formulas": [
+    "a=bq+r, 0<=r<b",
+    "HCF(a,b)*LCM(a,b)=a*b (for two numbers)"
+   ],
+   "question_types": [
+    "Euclid division algorithm",
+    "HCF/LCM",
+    "Irrationality proofs",
+    "Decimal expansion type"
+   ],
+   "source_pdf": "class 10\\jemh101.pdf",
+   "text_excerpt": "REAL NUMBERS 1\n1\n1.1Introduction\nIn Class IX, you began your exploration of the world of real numbers and encountered\nirrational numbers. We continue our discussion on real numbers in this chapter . We\nbegin with very important properties of positive integers in Sections 1.2, namely the\nEuclid’ s division algorithm and the Fundamental Theorem of Arithmetic.\nEuclid’ s division algorithm, as the name suggests, has to do with divisibility of\nintegers. S tated simply , it says any positive integer a can be divided by another positive\ninteger b in such a way that it leaves a remainder r that is smaller than b. Many of you\nprobably recognise this as the usual long division process. Although this result is quite\neasy to state and understand, it has many applications related to the divisibility properties\nof integers. We touch upon a few of them, and use it mainly to compute the HCF of\ntwo positive integers.\nThe Fundamental Theorem of Arithmetic, on the other hand, has to do something\nwith multiplication of positive integers. You already know that every composite number\ncan be expressed as a product of primes in a unique wa y—this important fact is the\nFundamental Theorem of Arithmetic. Again, while it is a result that is easy to state and\nunderstand, it has some very deep and significant applications in the field of mathematics.\nWe use the Fundamental Theorem of Arithmetic for two main applications. First, we\nuse it to prove the irrationality of many of the numbers you studied in Class IX, such as\n2 , 3 and 5. Second, we apply this theorem to explore when exactly the decimal\nexpansion of a rational number , say ( 0)pqq , is terminating and when it is non-\nterminating repeating. We do so by looking at the prime factorisation of the denominator\nq of p\nq. You will see that the prime factorisation of q will completely reveal the nature\nof the decimal expansion of p\nq.\nSo let us begin our exploration.REAL NUMBERS\nReprint 2025-26\n2 MATHEMA TICS\n1.2The Fundamental Theor em of Arithmetic\nIn your earlier classes, you have seen that any natural number can be written as a\nproduct of its prime factors. For instance, 2 = 2, 4 = 2 × 2, 253 = 1 1 × 23, and so on.\nNow , let us try and look at natural numbers from the other direction. That is, can any\nnatural number be obtained by multiplying prime numbers? Let us see.\nTake any collection of prime numbers, say 2, 3, 7, 1 1 and 23. If we multiply\nsome or all of these numbers, allowing them to repeat as many times as we wish,\nwe c"
+  },
+  {
+   "grade": 10,
+   "chapter_id": 2,
+   "chapter": "Polynomials",
+   "part": 1,
+   "formulas": [
+    "For ax^2+bx+c, sum of zeroes=-b/a",
+    "For ax^2+bx+c, product of zeroes=c/a"
+   ],
+   "question_types": [
+    "Find zeroes graphically",
+    "Relationship between zeroes and coefficients",
+    "Form polynomial from zeroes",
+    "Verify identities"
+   ],
+   "source_pdf": "class 10\\jemh102.pdf",
+   "text_excerpt": "10 MATHEMA TICS\n2\n2.1 Introduction\nIn Class IX, you have studied polynomials in one variable and their degrees. Recall\nthat if p(x) is a polynomial in x, the highest power of x in p(x) is called the degree of\nthe polynomial p(x). For example, 4 x + 2 is a polynomial in the variable x of\ndegree 1, 2 y2 – 3y + 4 is a polynomial in the variable y of degree 2, 5 x3 – 4x2 + x – 2\nis a polynomial in the variable x of degree 3 and 7 u6 – 423482uu u  is a polynomial\nin the variable u of degree 6. Expressions like 1\n1x, 2x, 21\n23 xx etc., are\nnot polynomials.\nA polynomial of degree 1 is called a linear polynomial . For example, 2 x – 3,\n35 ,x 2 y , 2\n11x , 3z + 4, 213u, etc., are all linear polynomials. Polynomials\nsuch as 2 x + 5 – x2, x3 + 1, etc., are not linear polynomials.\nA polynomial of degree 2 is called a quadratic polynomial . The name ‘quadratic’\nhas been derived from the word ‘quadrate’, which means ‘square’. 2 2, 235xx\ny2 – 2, 223 ,x x 22 2 2125 , 5 , 433 7uuv v z   are some examples of\nquadratic polynomials (whose coefficients are real numbers). More generally, anyquadratic polynomial in x is of the form ax\n2 + bx + c, where a, b, c are real numbers\nand a  0. A polynomial of degree 3 is called a cubic polynomial . Some examples ofPOLYNOMIALS\nReprint 2025-26\nPOLYNOMIALS 11\na cubic polynomial are 2 – x3, x3, 32,x 3 – x2 + x3, 3x3 – 2x2 + x – 1. In fact, the most\ngeneral form of a cubic polynomial is\nax3 + bx2 + cx + d,\nwhere, a, b, c, d are real numbers and a  0.\nNow consider the polynomial p(x) = x2 – 3x – 4. Then, putting x = 2 in the\npolynomial, we get p(2) = 22 – 3 × 2 – 4 = – 6. The value ‘– 6’, obtained by replacing\nx by 2 in x2 – 3x – 4, is the value of x2 – 3x – 4 at x = 2. Similarly, p(0) is the value of\np(x) at x = 0, which is – 4.\nIf p(x) is a polynomial in x, and if k is any real number, then the value obtained by\nreplacing x by k in p(x), is called the value of p(x) at x = k, and is denoted by p(k).\nWhat is the value of p(x) = x2 –3x – 4 at x = –1? We have :\np(–1) = (–1)2 –{3 × (–1)} – 4 = 0\nAlso, note that p(4) = 42 – (3  4) – 4 = 0.\nAs p(–1) = 0 and p(4) = 0, –1 and 4 are called the zeroes of the quadratic\npolynomial x2 – 3x – 4. More generally, a real number k is said to be a zero of a\npolynomial p(x), if p(k) = 0.\nYou have already studied in Class IX, how to find the zeroes of a linear\npolynomial. For example, if k is a zero of p(x) = 2x + 3, then p(k) = 0 gives us\n2k + 3 = 0, i.e., k = 3\n2\nIn general, if k is a "
+  },
+  {
+   "grade": 10,
+   "chapter_id": 3,
+   "chapter": "Pair of Linear Equations in Two Variables",
+   "part": 1,
+   "formulas": [
+    "a1x+b1y+c1=0, a2x+b2y+c2=0",
+    "Unique solution if a1/a2 != b1/b2",
+    "No solution if a1/a2=b1/b2!=c1/c2",
+    "Infinitely many if a1/a2=b1/b2=c1/c2"
+   ],
+   "question_types": [
+    "Solve by substitution/elimination",
+    "Graphical solution",
+    "Nature of solutions",
+    "Word problems"
+   ],
+   "source_pdf": "class 10\\jemh103.pdf",
+   "text_excerpt": "24 MATHEMA TICS\n3\n3.1 Introduction\nYou must have come across situations like the one given below :\nAkhila went to a fair in her village. She wanted to enjoy rides on the Giant Wheel\nand play Hoopla (a game in which you throw a ring on the items kept in a stall, and if\nthe ring covers any object completely, you get it). The number of times she playedHoopla is half the number of rides she had on the Giant Wheel. If each ride costs` 3, and a game of Hoopla costs ` 4, how would you find out the number of rides she\nhad and how many times she played Hoopla, provided she spent ` 20.\nMay be you will try it by considering different cases. If she has one ride, is it\npossible? Is it possible to have two rides? And so on. Or you may use the knowledgeof Class IX, to represent such situations as linear equations in two variables.PAIR OF LINEAR EQUATIONS\nIN TWO VARIABLES\nReprint 2025-26\nPAIR OF LINEAR EQUATIONS IN TWO VARIABLES 25\nLet us try this approach.\nDenote the number of rides that Akhila had by x, and the number of times she\nplayed Hoopla by y. Now the situation can be represented by the two equations:\ny =1\n2x (1)\n3x + 4y = 20 (2)\nCan we find the solutions of this pair of equations? There are several ways of\nfinding these, which we will study in this chapter.\n3.2 Graphical Method of Solution of a Pair of Linear Equations\nA pair of linear equations which has no solution, is called an inconsistent pair of linear\nequations. A pair of linear equations in two variables, which has a solution, is called a\nconsistent pair of linear equations. A pair of linear equations which are equivalent has\ninfinitely many distinct common solutions. Such a pair is called a dependent pair of\nlinear equations in two variables. Note that a dependent pair of linear equations is\nalways consistent.\nWe can now summarise the behaviour of lines representing a pair of linear equations\nin two variables and the existence of solutions as follows:\n(i) the lines may intersect in a single point. In this case, the pair of equations\nhas a unique solution (consistent pair of equations).\n(ii)the lines may be parallel. In this case, the equations have no solution\n(inconsistent pair of equations).\n(iii) the lines may be coincident. In this case, the equations have infinitely many\nsolutions [dependent (consistent) pair of equations].\nConsider the following three pairs of equations.\n(i)x – 2y = 0 and 3 x + 4y – 20 = 0 (The lines intersect)\n(ii) 2 x + 3y – 9 = 0 and 4 x + 6y – 18 = 0 (The lines coincide)\n(iii)"
+  },
+  {
+   "grade": 10,
+   "chapter_id": 4,
+   "chapter": "Quadratic Equations",
+   "part": 1,
+   "formulas": [
+    "x=[-b+-sqrt(b^2-4ac)]/(2a)",
+    "Discriminant D=b^2-4ac"
+   ],
+   "question_types": [
+    "Solve by factorization",
+    "Solve by formula",
+    "Nature of roots",
+    "Word problems"
+   ],
+   "source_pdf": "class 10\\jemh104.pdf",
+   "text_excerpt": "38 MATHEMA TICS\n4\n4.1 Introduction\nIn Chapter 2, you have studied different types of polynomials. One type was the\nquadratic polynomial of the form ax2 + bx + c, a  0. When we equate this polynomial\nto zero, we get a quadratic equation. Quadratic equations come up when we deal withmany real-life situations. For instance, suppose acharity trust decides to build a prayer hall havinga carpet area of 300 square metres with its lengthone metre more than twice its breadth. Whatshould be the length and breadth of the hall?Suppose the breadth of the hall is x metres. Then,\nits length should be (2 x + 1) metres. We can depict\nthis information pictorially as shown in Fig. 4.1.\nNow, area of the hall = (2 x + 1). x m\n2 = (2 x2 + x) m2\nSo, 2x2 + x = 300 (Given)\nTherefore, 2 x2 + x – 300 = 0\nSo, the breadth of the hall should satisfy the equation 2x2 + x – 300 = 0 which is a\nquadratic equation.\nMany people believe that Babylonians were the first to solve quadratic equations.\nFor instance, they knew how to find two positive numbers with a given positive sum\nand a given positive product, and this problem is equivalent to solving a quadraticequation of the form x\n2 – px + q = 0. Greek mathematician Euclid developed a\ngeometrical approach for finding out lengths which, in our present day terminology,are solutions of quadratic equations. Solving of quadratic equations, in general form, isoften credited to ancient Indian mathematicians. In fact, Brahmagupta (C.E.598–665)gave an explicit formula to solve a quadratic equation of the form ax\n2 + bx = c. Later,QUADRATIC EQUATIONS\nFig. 4.1\nReprint 2025-26\nQUADRA TIC EQUA TIONS 39\nSridharacharya (C.E. 1025) derived a formula, now known as the quadratic formula,\n(as quoted by Bhaskara II) for solving a quadratic equation by the method of completingthe square. An Arab mathematician Al-Khwarizmi (about C.E. 800) also studiedquadratic equations of different types. Abraham bar Hiyya Ha-Nasi, in his book‘Liber embadorum’ published in Europe in C.E. 1145 gave complete solutions ofdifferent quadratic equations.\nIn this chapter, you will study quadratic equations, and various ways of finding\ntheir roots. You will also see some applications of quadratic equations in daily lifesituations.\n4.2 Quadratic Equations\nA quadratic equation in the variable x is an equation of the form ax2 + bx + c = 0, where\na, b, c are real numbers, a  0. For example, 2 x2 + x – 300 = 0 is a quadratic equation.\nSimilarly, 2 x2 – 3x + 1 = 0, 4 x – 3x2 + 2 = 0 and 1"
+  },
+  {
+   "grade": 10,
+   "chapter_id": 5,
+   "chapter": "Arithmetic Progressions",
+   "part": 1,
+   "formulas": [
+    "a_n=a+(n-1)d",
+    "S_n=n/2[2a+(n-1)d]",
+    "S_n=n/2(first+last)"
+   ],
+   "question_types": [
+    "Nth term",
+    "Sum of n terms",
+    "Find missing terms",
+    "Application problems"
+   ],
+   "source_pdf": "class 10\\jemh105.pdf",
+   "text_excerpt": "ARITHMETIC PROGRESSIONS 49\n5\n5.1Introduction\nYou must have observed that in nature, many things follow a certain pattern, such as\nthe petals of a sunflower , the holes of a honeycomb, the grains on a maize cob, the\nspirals on a pineapple and on a pine cone, etc.\nWe now look for some patterns which occur in our day-to-day life. Some such\nexamples are :\n(i)Reena applied for a job and got selected. She\nhas been offered a job with a starting monthly\nsalary of ` 8000, with an annual increment of\n` 500 in her salary . Her salary (in `) for the 1st,\n2nd, 3rd, . . . years will be, respectively\n8000, 8500, 9000, . . . .\n(ii)The lengths of the rungs of a ladder decrease\nuniformly by 2 cm from bottom to top\n(see Fig. 5.1). The bottom rung is 45 cm in\nlength. The lengths (in cm) of the 1st, 2nd,\n3rd, . . ., 8th rung from the bottom to the top\nare, respectively\n45, 43, 41, 39, 37, 35, 33, 31\n(iii)In a savings scheme, the amount becomes 5\n4 times of itself after every 3 years.\nThe maturity amount (in `) of an investment of ` 8000 after 3, 6, 9 and 12 years\nwill be, respectively :\n10000, 12500, 15625, 19531.25ARITHMETIC P ROGRESSIONS\nFig. 5.1\nReprint 2025-26\n50 MATHEMA TICS\n(iv)The number of unit squares in squares with side 1, 2, 3, . . . units (see Fig. 5.2)\nare, respectively\n12, 22, 32, . . . .\nFig. 5.2\n(v) Shakila puts ` 100 into her daughter’s money box when she was one year old\nand increased the amount by ` 50 every year. The amounts of money (in `) in the\nbox on the 1st, 2nd, 3rd, 4th, . . . birthday were\n100, 150, 200, 250, . . ., respectively.\n(vi) A pair of rabbits are too young to produce in their first month. In the second, and\nevery subsequent month, they produce a new pair. Each new pair of rabbits\nproduce a new pair in their second month and in every subsequent month (seeFig. 5.3). Assuming no rabbit dies, the number of pairs of rabbits at the start of\nthe 1st, 2nd, 3rd, . . ., 6th month, respectively are :\n1, 1, 2, 3, 5, 8\nFig. 5.3\nReprint 2025-26\nARITHMETIC PROGRESSIONS 51\nIn the examples above, we observe some patterns. In some, we find that the\nsucceeding terms are obtained by adding a fixed number, in other by multiplying\nwith a fixed number, in another we find that they are squares of consecutivenumbers, and so on.\nIn this chapter, we shall discuss one of these patterns in which succeeding terms\nare obtained by adding a fixed number to the preceding terms. We shall also see howto find their nth terms and the sum of n consecutive terms, and use this k"
+  },
+  {
+   "grade": 10,
+   "chapter_id": 6,
+   "chapter": "Triangles",
+   "part": 1,
+   "formulas": [
+    "If a line is parallel to one side of triangle, it divides other two sides proportionally",
+    "If two triangles are similar, area ratio=(corresponding side ratio)^2"
+   ],
+   "question_types": [
+    "Prove similarity",
+    "Find side lengths",
+    "Area ratio problems",
+    "BPT applications"
+   ],
+   "source_pdf": "class 10\\jemh106.pdf",
+   "text_excerpt": "TRIANGLES 73\n6\n6.1 Introduction\nYou are familiar with triangles and many of their properties from your earlier classes.\nIn Class IX, you have studied congruence of triangles in detail. Recall that two figuresare said to be congruent , if they have the same shape and the same size. In this\nchapter, we shall study about those figures which have the same shape but not necessarilythe same size. Two figures having the same shape (and not necessarily the same size)are called similar figures. In particular, we shall discuss the similarity of triangles and\napply this knowledge in giving a simple proof of Pythagoras Theorem learnt earlier.\nCan you guess how heights of mountains (say Mount Everest) or distances of\nsome long distant objects (say moon) have been found out? Do you think these haveTRIANGLES\nReprint 2025-26\n74 MATHEMA TICS\nbeen measured directly with the help of a measuring tape? In fact, all these heights\nand distances have been found out using the idea of indirect measurements, which is\nbased on the principle of similarity of figures (see Example 7, Q.15 of Exercise 6.3\nand also Chapters 8 and 9 of this book).\n6.2 Similar Figures\nIn Class IX, you have seen that all circles with the same radii are congruent, all\nsquares with the same side lengths are congruent and all equilateral triangles with the\nsame side lengths are congruent.\nNow consider any two (or more)\ncircles [see Fig. 6.1 (i)]. Are theycongruent? Since all of them do nothave the same radius, they are not\ncongruent to each other. Note that\nsome are congruent and some are not,but all of them have the same shape.\nSo they all are, what we call, similar .\nTwo similar figures have the same\nshape but not necessarily the same\nsize. Therefore, all circles are similar.\nWhat about two (or more) squares ortwo (or more) equilateral triangles\n[see Fig. 6.1 (ii) and (iii)]? As observed\nin the case of circles, here also allsquares are similar and all equilateral\ntriangles are similar.\nFrom the above, we can say\nthat all congruent figures are\nsimilar but the similar figures need\nnot be congruent.\nCan a circle and a square be\nsimilar? Can a triangle and a square\nbe similar? These questions can beanswered by just looking at thefigures (see Fig. 6.1). Evidentlythese figures are not similar. (Why?)\nFig. 6.1\nFig. 6.2\nReprint 2025-26\nTRIANGLES 75\nWhat can you say about the two quadrilaterals ABCD and PQRS\n(see Fig 6.2)?Are they similar? These figures appear to be similar but we cannot be\ncertain about it.Therefore,"
+  },
+  {
+   "grade": 10,
+   "chapter_id": 7,
+   "chapter": "Coordinate Geometry",
+   "part": 1,
+   "formulas": [
+    "Distance=sqrt((x2-x1)^2+(y2-y1)^2)",
+    "Section formula=((mx2+nx1)/(m+n),(my2+ny1)/(m+n))",
+    "Midpoint=((x1+x2)/2,(y1+y2)/2)"
+   ],
+   "question_types": [
+    "Distance between points",
+    "Midpoint/section",
+    "Geometric verification"
+   ],
+   "source_pdf": "class 10\\jemh107.pdf",
+   "text_excerpt": "COORDINA TE GEOMETR Y 99\n7\n7.1Introduction\nIn Class IX, you have studied that to locate the position of a point on a plane, we\nrequire a pair of coordinate axes. The distance of a point from the y-axis is called its\nx-coordinate , or abscissa . The distance of a point from the x-axis is called its\ny-coordinate , or ordinate . The coordinates of a point on the x-axis are of the form\n(x, 0), and of a point on the y-axis are of the form (0, y).\nHere is a play for you. Draw a set of a pair of perpendicular axes on a graph\npaper . Now plot the following points and join them as directed: Join the point A(4, 8) to\nB(3, 9) to C(3, 8) to D(1, 6) to E(1, 5) to F(3, 3) to G(6, 3) to H(8, 5) to I(8, 6) to\nJ(6, 8) to K(6, 9) to L(5, 8) to A. Then join the points P(3.5, 7), Q (3, 6) and R(4, 6) to\nform a triangle. Also join the points X(5.5, 7), Y(5, 6) and Z(6, 6) to form a triangle.\nNow join S(4, 5), T(4.5, 4) and U(5, 5) to form a triangle. Lastly join S to the points\n(0, 5) and (0, 6) and join U to the points (9, 5) and (9, 6). What picture have you got?\nAlso, you have seen that a linear equation in two variables of the form\nax + by + c = 0, ( a, b are not simultaneously zero), when represented graphically ,\ngives a straight line. Further , in Chapter 2, you have seen the graph of\ny = ax2 + bx + c (\na ¹ 0), is a parabola. In fact, coordinate geometry has been developed\nas an algebraic tool for studying geometry of figures. It helps us to study geometry\nusing algebra, and understand algebra with the help of geometry . Because of this,\ncoordinate geometry is widely applied in various fields such as physics, engineering,\nnavigation, seismology and art!\nIn this chapter , you will learn how to find the distance between the two points\nwhose coordinates are given. You will also study how to find the coordinates of the\npoint which divides a line segment joining two given points in a given ratio.COORDINA TE GEOMETR Y\nReprint 2025-26\n100 MATHEMA TICS\n7.2 Distance Formula\nLet us consider the following situation:\nA town B is located 36 km east and 15\nkm north of the town A. How would you find\nthe distance from town A to town B withoutactually measuring it. Let us see. This situationcan be represented graphically as shown in\nFig. 7.1. You may use the Pythagoras Theorem\nto calculate this distance.\nNow, suppose two points lie on the x-axis.\nCan we find the distance between them? Forinstance, consider two points A(4, 0) and B(6, 0)in Fig. 7.2. The points A and B lie on the x-axis.\n"
+  },
+  {
+   "grade": 10,
+   "chapter_id": 8,
+   "chapter": "Introduction to Trigonometry",
+   "part": 1,
+   "formulas": [
+    "sin^2A+cos^2A=1",
+    "1+tan^2A=sec^2A",
+    "1+cot^2A=cosec^2A"
+   ],
+   "question_types": [
+    "Trigonometric ratios",
+    "Standard angle values",
+    "Identity proofs",
+    "Expression simplification"
+   ],
+   "source_pdf": "class 10\\jemh108.pdf",
+   "text_excerpt": "INTRODUCTION TO TRIGONOMETRY 113\n8\nThere is perhaps nothing which so occupies the\nmiddle position of mathematics as trigonometry.\n– J.F. Herbart (1890)\n8.1 Introduction\nYou have already studied about triangles, and in particular, right triangles, in yourearlier classes. Let us take some examples from our surroundings where right trianglescan be imagined to be formed. For instance :\n1. Suppose the students of a school are\nvisiting Qutub Minar. Now, if a student\nis looking at the top of the Minar, a right\ntriangle can be imagined to be made,\nas shown in Fig 8.1. Can the studentfind out the height of the Minar, without\nactually measuring it?\n 2. Suppose a girl is sitting on the balcony\nof her house located on the bank of ariver. She is looking down at a flower\npot placed on a stair of a temple situated\nnearby on the other bank of the river.\nA right triangle is imagined to be madein this situation as shown in Fig.8.2. If\nyou know the height at which the\nperson is sitting, can you find the width\nof the river?INTRODUCTION TO\nTRIGONOMETRY\nFig. 8.1\nFig. 8.2\nReprint 2025-26\n114 MATHEMA TICS\n3. Suppose a hot air balloon is flying in\nthe air. A girl happens to spot the\nballoon in the sky and runs to hermother to tell her about it. Her motherrushes out of the house to look at theballoon.Now when the girl had spottedthe balloon intially it was at point A.When both the mother and daughtercame out to see it, it had alreadytravelled to another point B. Can youfind the altitude of B from the ground?\nIn all the situations given above, the distances or heights can be found by using\nsome mathematical techniques, which come under a branch of mathematics called‘trigonometry’. The word ‘trigonometry’ is derived from the Greek words ‘tri’(meaning three), ‘gon’ (meaning sides) and ‘metron’ (meaning measure). In fact,trigonometry is the study of relationships between the sides and angles of a triangle.\nThe earliest known work on trigonometry was recorded in Egypt and Babylon. Earlyastronomers used it to find out the distances of the stars and planets from the Earth.Even today, most of the technologically advanced methods used in Engineering andPhysical Sciences are based on trigonometrical concepts.\nIn this chapter, we will study some ratios of the sides of a right triangle with\nrespect to its acute angles, called trigonometric ratios of the angle. We will restrict\nour discussion to acute angles only. However, these ratios can be extended to otherangles also. We will also define th"
+  },
+  {
+   "grade": 10,
+   "chapter_id": 9,
+   "chapter": "Applications of Trigonometry",
+   "part": 1,
+   "formulas": [
+    "tan(theta)=opposite/adjacent",
+    "Height=distance*tan(theta)"
+   ],
+   "question_types": [
+    "Heights and distances",
+    "Angle of elevation/depression",
+    "Word problems"
+   ],
+   "source_pdf": "class 10\\jemh109.pdf",
+   "text_excerpt": "SOME APPLICA TIONS OF TRIGONOMETR Y 133\n9\n9.1Heights and Distances\nIn the previous chapter , you have studied about trigonometric ratios. In this chapter ,\nyou will be studying about some ways in which trigonometry is used in the life around\nyou.\nLet us consider Fig. 8.1 of prvious chapter , which is redrawn below in Fig. 9.1.\nFig. 9.1\nIn this figure, the line AC drawn from the eye of the student to the top of the\nminar is called the line of sight . The student is looking at the top of the minar . The\nangle BAC, so formed by the line of sight with the horizontal, is called the angle of\nelevation of the top of the minar from the eye of the student.\nThus, the line of sight is the line drawn from the eye of an observer to the point\nin the object viewed by the observer . The angle of elevation of the point viewed isSOME APPLICA TIONS OF\nTRIGONOMETR Y\nReprint 2025-26\n134 MATHEMA TICS\nthe angle formed by the line of sight with the horizontal when the point being viewed is\nabove the horizontal level, i.e., the case when we raise our head to look at the object\n(see Fig. 9.2).\nFig. 9.2\nNow , consider the situation given in Fig. 8.2. The girl sitting on the balcony is\nlooking down at a flower pot placed on a stair of the temple. In this case, the line of\nsight is below the horizontal level. The angle so formed by the line of sight with the\nhorizontal is called the angle of depr ession .\nThus, the angle of depression of a point on the object being viewed is the angle\nformed by the line of sight with the horizontal when the point is below the horizontal\nlevel, i.e., the case when we lower our head to look at the point being viewed\n(see Fig. 9.3).\nFig. 9.3\nNow , you may identify the lines of sight, and the angles so formed in Fig. 8.3.\nAre they angles of elevation or angles of depression?\nLet us refer to Fig. 9.1 again. If you want to find the height CD of the minar\nwithout actually measuring it, what information do you need? You would need to know\nthe following:\n(i)the distance DE at which the student is standing from the foot of the minar\nReprint 2025-26\nSOME APPLICATIONS OF TRIGONOMETRY 135\n(ii)the angle of elevation,  BAC, of the top of the minar\n(iii) the height AE of the student.\nAssuming that the above three conditions are known, how can we determine the\nheight of the minar?\nIn the figure, CD = CB + BD. Here, BD = AE, which is the height of the student.\nTo find BC, we will use trigonometric ratios of  BAC or  A.\nIn  ABC, the side BC is the opposite side in r"
+  },
+  {
+   "grade": 10,
+   "chapter_id": 10,
+   "chapter": "Circles",
+   "part": 1,
+   "formulas": [
+    "Tangent at a point is perpendicular to radius",
+    "Tangents from external point are equal"
+   ],
+   "question_types": [
+    "Prove tangent properties",
+    "Find lengths",
+    "Circle theorems"
+   ],
+   "source_pdf": "class 10\\jemh110.pdf",
+   "text_excerpt": "144 MATHEMA TICS\n10\n10.1 Introduction\nYou have studied in Class IX that a circle is a collection of all points in a plane\nwhich are at a constant distance (radius) from a fixed point (centre). You havealso studied various terms related to a circle like chord, segment, sector, arc etc.Let us now examine the different situations that can arise when a circle and a lineare given in a plane.\nSo, let us consider a circle and a line PQ. There can be three possibilities given\nin Fig. 10.1 below:\nFig. 10.1\nIn Fig. 10.1 (i), the line PQ and the circle have no common point. In this case,\nPQ is called a non-intersecting line with respect to the circle. In Fig. 10.1 (ii), there\nare two common points A and B that the line PQ and the circle have. In this case, we\ncall the line PQ a secant of the circle. In Fig. 10.1 (iii), there is only one point \nA which\nis common to the line PQ and the circle. In this case, the line is called a tangent to the\ncircle.CIRCLES\nReprint 2025-26\nCIRCLES 145\nYou might have seen a pulley fitted over a well which is used\nin taking out water from the well. Look at Fig. 10.2. Here the rope\non both sides of the pulley, if considered as a ray, is like a tangent\nto the circle representing the pulley.\nIs there any position of the line with respect to the circle\nother than the types given above? You can see that there cannotbe any other type of position of the line with respect to the circle.In this chapter, we will study about the existence of the tangentsto a circle and also study some of their properties.\n10.2 Tangent to a Circle\nIn the previous section, you have seen that a tangent* to a circle is a line that\nintersects the circle at only one point .\nTo understand the existence of the tangent to a circle at a point, let us perform\nthe following activities:\nActivity 1 : Take a circular wire and attach a straight wire AB at a point P of the\ncircular wire so that it can rotate about the point P in a plane. Put the system on a table\nand gently rotate the wire AB about the point P\n to get different positions of the straight\nwire [see Fig. 10.3(i)].\nIn various positions, the wire intersects the\ncircular wire at P and at another point Q1 or Q2 or\nQ3, etc. In one position, you will see that it will\nintersect the circle at the point P only (see position\nAB of AB). This shows that a tangent exists at\nthe point P of the circle. On rotating further, youcan observe that in all other positions of AB, it willintersect the circle at P and at another point, say "
+  },
+  {
+   "grade": 10,
+   "chapter_id": 11,
+   "chapter": "Constructions",
+   "part": 1,
+   "formulas": [
+    "Construct tangent from external point using midpoint of OP"
+   ],
+   "question_types": [
+    "Divide segment in ratio",
+    "Construct similar triangles",
+    "Construct tangents"
+   ],
+   "source_pdf": "class 10\\jemh111.pdf",
+   "text_excerpt": "154 MATHEMA TICS\n11\n11.1 Areas of Sector and Segment of a Cir cle\nYou have already come across the terms sector and\nsegment of a circle in your earlier classes. Recall\nthat the portion (or part) of the circular region enclosed\nby two radii and the corresponding arc is called a\nsector of the circle and the portion (or part) of the\ncircular region enclosed between a chord and the\ncorresponding arc is called a segment of the circle.\nThus, in Fig. 1 1.1, shaded region OAPB is a sector\nof the circle with centre O. ∠ AOB is called the\nangle of the sector . Note that in this figure, unshaded region OAQB is also a sector of\nthe circle. For obvious reasons, OAPB is called the minor sector and\nOAQB is called the major sector . You can also see that angle of the major sector is\n360° – ∠ AOB.\nNow , look at Fig. 1 1.2 in which AB is a chord\nof the circle with centre O. So, shaded region APB is\na segment of the circle. You can also note that\nunshaded region AQB is another segment of the circle\nformed by the chord AB. For obvious reasons, APB\nis called the minor segment and AQB is called the\nmajor segment .\nRemark : When we write ‘segment’ and ‘sector ’\nwe will mean the ‘minor segment’ and the ‘minor\nsector ’ respectively , unless stated otherwise.AREAS RELATED TO CIRCLES\nFig. 1 1.2Fig. 1 1.1\nReprint 2025-26\nAREAS R ELATED T O CIRCLES 155\nNow with this knowledge, let us try to find some\nrelations (or formulae) to calculate their areas.\nLet OAPB be a sector of a circle with centre\nO and radius r (see Fig. 1 1.3). Let the degree\nmeasure of Ð AOB be q.\nYou know that area of a circle (in fact of a\ncircular region or disc) is pr2.\nIn a way , we can consider this circular region to\nbe a sector forming an angle of 360° (i.e., of degree\nmeasure 360) at the centre O. Now by applying the\nUnitary Method, we can arrive at the area of the\nsector OAPB as follows:\nWhen degree measure of the angle at the centre is 360, area of the\nsector = pr2\nSo, when the degree measure of the angle at the centre is 1, area of the\nsector = 2\n360r\nTherefore, when the degree measure of the angle at the centre is q, area of the\nsector = 2\n360r  = 2\n360r .\nThus, we obtain the following relation (or formula) for area of a sector of a\ncircle:\nArea of the sector of angle q qqqq =r2\n360,\nwhere r is the radius of the circle and q the angle of the sector in degrees.\nNow , a natural question arises : Can we find\nthe length of the arc APB corresponding to this\nsector? Yes. Again, by applying the Unitary"
+  },
+  {
+   "grade": 10,
+   "chapter_id": 12,
+   "chapter": "Areas Related to Circles",
+   "part": 1,
+   "formulas": [
+    "Area circle=pi r^2",
+    "Circumference=2pi r",
+    "Area sector=(theta/360)*pi r^2",
+    "Arc length=(theta/360)*2pi r"
+   ],
+   "question_types": [
+    "Area of sector/segment",
+    "Composite regions",
+    "Perimeter with arcs"
+   ],
+   "source_pdf": "class 10\\jemh112.pdf",
+   "text_excerpt": "SURF ACE AREAS AND VOLUMES 161\n12\n12.1 Introduction\nFrom Class IX, you are familiar with some of the solids like cuboid, cone, cylinder , and\nsphere (see Fig. 12.1). You have also learnt how to find their surface areas and volumes.\nFig. 12.1\nIn our day-to-day life, we come across a number of solids made up of combinations\nof two or more of the basic solids as shown above.\nYou must have seen a truck with a\ncontainer fitted on its back (see Fig. 12.2),\ncarrying oil or water from one place to\nanother . Is it in the shape of any of the four\nbasic solids mentioned above? You may\nguess that it is made of a cylinder with two\nhemispheres as its ends.SURFACE AREAS AND\nVOLUMES\nFig. 12.2\nReprint 2025-26\n162 MATHEMA TICS\nAgain, you may have seen an object like the\none in Fig. 12.3. Can you name it? A test tube, right!\nYou would have used one in your science laboratory.This tube is also a combination of a cylinder and ahemisphere. Similarly, while travelling, you may haveseen some big and beautiful buildings or monumentsmade up of a combination of solids mentioned above.\nIf for some reason you wanted to find the\nsurface areas, or volumes, or capacities of suchobjects, how would you do it? We cannot classifythese under any of the solids you have already studied.\nIn this chapter, you will see how to find surface areas and volumes of such\nobjects.\n12.2 Surface Area of a Combination of Solids\nLet us consider the container seen in Fig. 12.2. How do we find the surface area ofsuch a solid? Now, whenever we come across a new problem, we first try to see, ifwe can break it down into smaller problems, we have earlier solved. We can see thatthis solid is made up of a cylinder with two hemispheres stuck at either end. It wouldlook like what we have in Fig. 12.4, after we put the pieces all together.\nFig. 12.4\nIf we consider the surface of the newly formed object, we would be able to see\nonly the curved surfaces of the two hemispheres and the curved surface of the cylinder .\nSo, the total surface area of the new solid is the sum of the curved surface\nareas of each of the individual parts. This gives,\nTSA of new solid = CSA of one hemisphere + CSA of cylinder\n + CSA of other hemisphere\nwhere \nTSA, CSA stand for ‘Total Surface Area’ and ‘Curved Surface Area’\nrespectively.\nLet us now consider another situation. Suppose we are making a toy by putting\ntogether a hemisphere and a cone. Let us see the steps that we would be going\nthrough.Fig. 12.3\nReprint 2025-26\nSURFACE AREAS AND VOLUME"
+  },
+  {
+   "grade": 10,
+   "chapter_id": 13,
+   "chapter": "Surface Areas and Volumes",
+   "part": 1,
+   "formulas": [
+    "Volume frustum=(1/3)pi h(R^2+r^2+Rr)",
+    "CSA frustum=pi(R+r)l"
+   ],
+   "question_types": [
+    "Frustum problems",
+    "Combined solids",
+    "Capacity and conversion"
+   ],
+   "source_pdf": "class 10\\jemh113.pdf",
+   "text_excerpt": "STATISTICS 171\n13\n13.1 Introduction\nIn Class IX, you have studied the classification of given data into ungrouped as well as\ngrouped frequency distributions. You have also learnt to represent the data pictoriallyin the form of various graphs such as bar graphs, histograms (including those of varyingwidths) and frequency polygons. In fact, you went a step further by studying certainnumerical representatives of the ungrouped data, also called measures of centraltendency, namely, mean , median and mode . In this chapter, we shall extend the study\nof these three measures, i.e., mean, median and mode from ungrouped data to that ofgrouped data . We shall also discuss the concept of cumulative frequency, the\ncumulative frequency distribution and how to draw cumulative frequency curves, calledogives .\n13.2 Mean of Grouped Data\nThe mean (or average) of observations, as we know, is the sum of the values of all theobservations divided by the total number of observations. From Class IX, recall that ifx\n1, x2,. . ., xn are observations with respective frequencies f1, f2, . . ., fn, then this\nmeans observation x1 occurs f1 times, x2 occurs f2 times, and so on.\nNow, the sum of the values of all the observations = f1x1 + f2x2 + . . . + fnxn, and\nthe number of observations = f1 + f2 + . . . + fn.\nSo, the mean x of the data is given by\nx =11 2 2\n12nn\nnfx fx fx\nff f \n\n\nRecall that we can write this in short form by using the Greek letter  (capital\nsigma) which means summation. That is,STATISTICS\nReprint 2025-26\n172 MATHEMA TICS\nx =1\n1n\nii\ni\nn\ni\nifx\nf\n\n\nwhich, more briefly, is written as x = \nii\nifx\nf, if it is understood that i varies from\n1 to n.\nLet us apply this formula to find the mean in the following example.\nExample 1 : The marks obtained by 30 students of Class X of a certain school in a\nMathematics paper consisting of 100 marks are presented in table below. Find the\nmean of the marks obtained by the students.\nMarks obtained 10 20\n36 40 50 56 60 70 72 80 88 92 95\n(xi)\n Number of 113432441123 1\nstudents ( fi)\nSolution: Recall that to find the mean marks, we require the product of each xi with\nthe corresponding frequency fi. So, let us put them in a column as shown in Table 13.1.\nTable 13.1\nMarks obtained (xi) Number of students (fi) fixi\n10 1 10\n20 1 20\n. 36 3 108\n40 4 160\n50 3 150\n56 2 112\n60 4 240\n70 4 280\n72 1 72\n80 1 80\n88 2 176\n92 3 276\n95 1 95\nTotal fi = 30 fixi = 1779\nReprint 2025-26\nSTATISTICS 173\nNow, \ni i\nif xx\nf = 1779\n30 = 59.3\nTherefor"
+  },
+  {
+   "grade": 10,
+   "chapter_id": 14,
+   "chapter": "Statistics",
+   "part": 1,
+   "formulas": [
+    "Mean for grouped data=sum(f_i*x_i)/sum(f_i)"
+   ],
+   "question_types": [
+    "Mean by direct/assumed step-deviation",
+    "Median from cumulative frequency",
+    "Mode from histogram"
+   ],
+   "source_pdf": "class 10\\jemh114.pdf",
+   "text_excerpt": "202 MATHEMA TICS\n14\nThe theor y of pr obabilities and the theor y of er rors now constitute\na formidable body of great mathematical inter est and of gr eat\npractical importance.\n– R.S. Woodward\n14.1 Probability — A Theor etical Appr oach\nLet us consider the following situation :\nSuppose a coin is tossed at random .\nWhen we speak of a coin, we assume it to be ‘fair ’, that is, it is symmetrical so\nthat there is no reason for it to come down more often on one side than the other .\nWe call this property of the coin as being ‘unbiased’. By the phrase ‘random tos s’,\nwe mean that the coin is allowed to fall freely without any bias or interfer ence.\nWe know , in advance, that the coin can only land in one of two possible ways —\neither head up or tail up (we dismiss the possibility of its ‘landing’ on its edge, which\nmay be possible, for example, if it falls on sand). We can reasonably assume that each\noutcome, head or tail, is as likely to occur as the other . We refer to this by saying that\nthe outcomes head and tail, are equally likely .\nFor another example of equally likely outcomes, suppose we throw a die\nonce. For us, a die will always mean a fair die. What are the possible outcomes?\nThey are 1, 2, 3, 4, 5, 6. Each number has the same possibility of showing up. So\nthe equally likely outcomes of throwing a die are 1, 2, 3, 4, 5 and 6.PROBABILITY\nReprint 2025-26\nPROBABILITY 203\nAre the outcomes of every experiment equally likely? Let us see.\nSuppose that a bag contains 4 red balls and 1 blue ball, and you draw a ball\nwithout looking into the bag. What are the outcomes? Are the outcomes — a red ball\nand a blue ball equally likely? Since there are 4 red balls and only one blue ball, youwould agree that you are more likely to get a red ball than a blue ball. So, the outcomes(a red ball or a blue ball) are not equally likely. However, the outcome of drawing a\nball of any colour from the bag is equally likely. So, all experiments do not necessarilyhave equally likely outcomes.\nHowever, in this chapter, from now on, we will assume that all the experiments\nhave equally likely outcomes.\nIn Class IX, we defined the experimental or empirical probability P(E) of an\nevent E as\nP(E) = \nNumber of trials in which the event happened\nTotal number of trials\nThe empirical interpretation of probability can be applied to every event associated\nwith an experiment which can be repeated a large number of times. The requirement\nof repeating an experiment has some limitations, as it m"
+  },
+  {
+   "grade": 10,
+   "chapter_id": 15,
+   "chapter": "Probability",
+   "part": 1,
+   "formulas": [
+    "P(E)=favorable outcomes/total outcomes",
+    "0<=P(E)<=1",
+    "P(not E)=1-P(E)"
+   ],
+   "question_types": [
+    "Simple event probability",
+    "Complement probability",
+    "Dice/cards/coins"
+   ],
+   "source_pdf": null,
+   "text_excerpt": ""
+  },
+  {
+   "grade": 11,
+   "chapter_id": 1,
+   "chapter": "Sets",
+   "part": 1,
+   "formulas": [
+    "n(AUB)=n(A)+n(B)-n(A∩B)",
+    "(A')'=A"
+   ],
+   "question_types": [
+    "Set operations",
+    "Venn diagram counting",
+    "Subset and power set",
+    "Set identities"
+   ],
+   "source_pdf": "class 11\\kemh101.pdf",
+   "text_excerpt": "Chapter 1\nSETS\nGeorg Cantor\n(1845-1918)vIn these days of conflict between ancient and modern studies; there\nmust surely be something to be said for a study which did not\nbegin with Pythagoras and will not end with Einstein; but\nis the oldest and the youngest . — G.H. HARDY v\n1.1 Introduction\nThe concept of set serves as a fundamental part of the\npresent day mathematics. Today this concept is being used\nin almost every branch of mathematics. Sets are us ed to\ndefine the concepts of relations and functions. The study of\ngeometry , sequences, probability , etc. requires the knowledge\nof sets.\nThe theory of sets was developed by German\nmathematician Georg Cantor (1845-1918). He first\nencountered sets while working on “problems on trigonometric\nseries”. In this Chapter , we discuss some basic definitions\nand operations involving sets.\n1.2 Sets and their Representations\nIn everyday life, we often speak of collections of objects of a particular kind, such as,\na pack of cards, a crowd of people, a cricket team, etc. In mathematics also, we come\nacross collections, for example, of natural numbers, points, prime numbers, etc. More\nspecially , we examine the following collections:\n(i)Odd natural numbers less than 10, i.e., 1, 3, 5, 7, 9\n(ii) The rivers of India\n(iii) The vowels in the English alphabet, namely , a, e, i, o, u\n(iv) Various kinds of triangles\n(v) Prime factors of 210, namely , 2,3,5 and 7\n(vi) The solution of the equation : x2 – 5x + 6 = 0, viz, 2 and 3.\nWe note that each of the above example is a well-defined collection of objects in\nReprint 2025-26\n2 MA THEMA TICS\nthe sense that we can definitely decide whether a given particular object belongs to a\ngiven collection or not. For example, we can say that the river Nile does not belong to\nthe collection of rivers of India. On the other hand, the river Ganga does belong to this\ncolleciton.\nWe give below a few more examples of sets used particularly in mathematics, viz.\nN:the set of all natural numbers\nZ:the set of all integers\nQ:the set of all rational numbers\nR:the set of real numbers\nZ+:the set of positive integers\nQ+:the set of positive rational numbers, and\nR+:the set of positive real numbers.\nThe symbols for the special sets given above will be referred to throughout\nthis text.\nAgain the collection of five most renowned mathematicians of the world is not\nwell-defined, because the criterion for determining a mathematician as most renowned\nmay vary from person to person. Thus, it is not a well-defined "
+  },
+  {
+   "grade": 11,
+   "chapter_id": 2,
+   "chapter": "Relations and Functions",
+   "part": 1,
+   "formulas": [
+    "f:A->B",
+    "Composite (fog)(x)=f(g(x))"
+   ],
+   "question_types": [
+    "Domain/range",
+    "Check relation properties",
+    "One-one/onto",
+    "Composite functions"
+   ],
+   "source_pdf": "class 11\\kemh102.pdf",
+   "text_excerpt": "vMathematics is the indispensable instrument of\nall physical research. – BERTHELOT v\n2.1 Introduction\nMuch of mathematics is about finding a pattern – a\nrecognisable link between quantities that change. In our\ndaily life, we come across many patterns that characterise\nrelations such as brother and sister , father and son, teacher\nand student. In mathematics also, we come across many\nrelations such as number m is less than number n, line l is\nparallel to line m, set A is a subset of set B. In all these, we\nnotice that a relation involves pairs of objects in certain\norder . In this Chapter , we will learn how to link pairs of\nobjects from two sets and then introduce relations between\nthe two objects in the pair . Finally , we will learn about\nspecial relations which will qualify to be functions. The\nconcept of function is very important in mathematics since it captures the idea of a\nmathematically precise correspondence between one quantity with the other .\n2.2 Cartesian Products of Sets\nSuppose A is a set of 2 colours and B is a set of 3 objects, i.e.,\nA = {red, blue}and B = { b, c, s},\nwhere b, c and s represent a particular bag, coat and shirt, respectively .\nHow many pairs of coloured objects can be made from these two sets?\nProceeding in a very orderly manner , we can see that there will be 6\ndistinct pairs as given below:\n(red, b), (red, c), (red, s), (blue, b), (blue, \nc), (blue, s).\nThus, we get 6 distinct objects (Fig 2.1).\nLet us recall from our earlier classes that an ordered pair of elements\ntaken from any two sets P and Q is a pair of elements written in smallFig 2.1Chapter 2\nRELA TIONS AND FUNCTIONS\nG . W. Leibnitz\n(1646–1716)\nReprint 2025-26\nRELATIONS AND FUNCTIONS 25\nbrackets and grouped together in a particular order , i.e., ( p,q), p ∈ P and q ∈ Q . This\nleads to the following definition:\nDefinition 1\n Given two non-empty sets P and Q. The cartesian product P × Q is the\nset of all ordered pairs of elements from P and Q, i.e.,\nP × Q = { ( p,q) : p ∈ P, q ∈ Q }\nIf either P or Q is the null set, then P × Q will also be empty set, i.e., P × Q = φ\nFrom the illustration given above we note that\nA × B = {(red, b), (red, c), (red, s), (blue, b), (blue, c), (blue, s)}.\nAgain, consider the two sets:\nA = {DL, MP , KA}, where DL, MP , KA represent Delhi,\nMadhya Pradesh and Karnataka, respectively and B = {01,02,\n03}representing codes for the licence plates of vehicles issued\nby DL, MP and KA .\nIf the three states, Delhi, Madhya Pradesh and Karnataka\nwe"
+  },
+  {
+   "grade": 11,
+   "chapter_id": 3,
+   "chapter": "Trigonometric Functions",
+   "part": 1,
+   "formulas": [
+    "sin(A+B)=sinA cosB+cosA sinB",
+    "cos(A+B)=cosA cosB-sinA sinB",
+    "sin2A=2sinA cosA",
+    "cos2A=cos^2A-sin^2A"
+   ],
+   "question_types": [
+    "General solutions",
+    "Identity transformations",
+    "Simplification",
+    "Equation solving"
+   ],
+   "source_pdf": "class 11\\kemh103.pdf",
+   "text_excerpt": "vA mathematician knows how to solve a problem,\nhe can not solve it. – MILNE v\n3.1 Introduction\nThe word ‘trigonometry’ is derived from the Greek words\n‘trigon ’ and ‘ metron’ and it means ‘measuring the sides of\na triangle’. The subject was originally developed to solve\ngeometric problems involving triangles. It was studied by\nsea captains for navigation, surveyor to map out the new\nlands, by engineers and others. Currently , trigonometry is\nused in many areas such as the science of seismology ,\ndesigning electric circuits, describing the state of an atom,\npredicting the heights of tides in the ocean, analysing a\nmusical tone and in many other areas.\nIn earlier classes, we have studied the trigonometric\nratios of acute angles as the ratio of the sides of a right\nangled triangle. We have also studied the trigonometric identities and application of\ntrigonometric ratios in solving the problems related to heights and distances. In this\nChapter , we will generalise the concept of trigonometric ratios to trigonometric functions\nand study their properties.\n3.2 Angles\nAngle is a measure of rotation of a given ray about its initial point. The original ray isChapter 3\nTRIGONOMETRIC FUNCTIONS\nArya Bhatt\n (476-550)\nFig 3.1Vertex\nReprint 2025-26\n44 MATHEMA TICS\ncalled the initial side and the final position of the ray after rotation is called the\nterminal side of the angle. The point of rotation is called the vertex . If the direction of\nrotation is anticlockwise, the angle is said to be positive and if the direction of rotation\nis clockwise, then the angle is negative (Fig 3.1).\nThe measure of an angle is the amount of\nrotation performed to get the terminal side from\nthe initial side. There are several units for\nmeasuring angles. The definition of an angle\nsuggests a unit, viz. one complete r evolution from the position of the initial side as\nindicated in Fig 3.2.\nThis is often convenient for large angles. For example, we can say that a rapidly\nspinning wheel is making an angle of say 15 revolution per second. We shall describe\ntwo other units of measurement of an angle which are most commonly used, viz.\ndegree measure and radian measure.\n3.2.1 Degree measure\n If a rotation from the initial side to terminal side is th1\n360 \n  of\na revolution, the angle is said to have a measure of one degree, written as 1°. A degree is\ndivided into 60 minutes, and a minute is divided into 60 seconds . One sixtieth of a degree is\ncalled a minute , written as 1 ′, and one sixtieth"
+  },
+  {
+   "grade": 11,
+   "chapter_id": 4,
+   "chapter": "Principle of Mathematical Induction",
+   "part": 1,
+   "formulas": [
+    "Base step + induction step => true for all n>=k"
+   ],
+   "question_types": [
+    "Prove divisibility",
+    "Prove summation formulas",
+    "Inequality by induction"
+   ],
+   "source_pdf": "class 11\\kemh104.pdf",
+   "text_excerpt": "76 MA THEMA TICS\nChapter\nCOMPLEX NUMBERS AND\nQUADRA TIC EQUA TIONS\nW. R. Hamilton\n(1805-1865)\nvMathematics is the Queen of Sciences and Arithmetic is the Queen of\nMathematics. – GAUSS v\n4.1 Introduction\nIn earlier classes, we have studied linear equations in one\nand two variables and quadratic equations in one variable.\nWe have seen that the equation x2 + 1 = 0 has no real\nsolution as x2 + 1 = 0 gives x2 = – 1 and square of every\nreal number is non-negative. So, we need to extend the\nreal number system to a larger system so that we can\nfind the solution of the equation x2 = – 1. In fact, the main\nobjective is to solve the equation ax2 + bx + c = 0, where\nD = b2 – 4ac < 0, which is not possible in the system of\nreal numbers.\n4.2 Complex Numbers\nLet us denote 1− by the symbol i. Then, we have 21 i=− . This means that i is a\nsolution of the equation x2 + 1 = 0.\nA number of the form a + ib, where a and b are real numbers, is defined to be a\ncomplex number . For example, 2 + i3, (– 1) + 3i, 1411i− +   are complex numbers.\nFor the complex number z = a + ib, a is called the real par\nt, denoted by Re z and\nb is called the imaginary part denoted by Im z of the complex number z . For example,\nif z = 2 + i5, then Re z = 2 and Im z = 5.\nTwo complex numbers z1 = a + ib and z2 = c + id are equal if a = c and b = d.4\nReprint 2025-26\nCOMPLEX NUMBERS AND QUADRATIC EQUATIONS 77\nExample 1 If 4x + i(3x – y) = 3 + i (– 6), where x and y are real numbers, then find\nthe values of x and y.\nSolution\n We have\n4x + i (3x – y) = 3 + i (–6) ... (1)\nEquating the real and the imaginary parts of (1), we get\n4x = 3, 3x – y = – 6,\nwhich, on solving simultaneously , give 3\n4x= and 33\n4y= .\n4.3 Algebra of Complex Numbers\nIn this Section, we shall develop the algebra of complex numbers.\n4.3.1 Addition of two complex numbers Let z1 = a + ib and z2 = c + id be any two\ncomplex numbers. Then, the sum z1 + z2 is defined as follows:\nz1 + z2 = (a + c) + i (b + d), which is again a complex number .\nFor example, (2 + i3) + (– 6 + i5) = (2 – 6) + \ni (3 + 5) = – 4 + i 8\nThe addition of complex numbers satisfy the following properties:\n(i)The closur e law The sum of two complex numbers is a complex\nnumber , i.e., z1 + z2 is a complex number for all complex numbers\nz1 and z2.\n(ii) The commutative law For any two complex numbers z1 and z2,\nz1 + z2 = z2 + z1\n(iii) The associative law For any three complex numbers z1, z2, z3,\n(z1 + z2) + z3 = z1 + (z2 + z3).\n(iv) The existence of additive identity Ther"
+  },
+  {
+   "grade": 11,
+   "chapter_id": 5,
+   "chapter": "Complex Numbers and Quadratic Equations",
+   "part": 1,
+   "formulas": [
+    "i^2=-1",
+    "z=a+ib",
+    "|z|=sqrt(a^2+b^2)",
+    "Conjugate(z)=a-ib"
+   ],
+   "question_types": [
+    "Algebra on complex numbers",
+    "Argand plane",
+    "Quadratic roots in C"
+   ],
+   "source_pdf": "class 11\\kemh105.pdf",
+   "text_excerpt": "5 Chapter\nvMathematics is the art of saying many things in many\ndifferent ways. – MAXWELL v\n5.1 Introduction\nIn earlier classes, we have studied equations in one variable and two variables and also\nsolved some statement problems by translating them in the form of equations. Now a\nnatural question arises: ‘Is it always possible to translate a statement problem in the\nform of an equation? For example, the height of all the students in your class is less\nthan 160 cm. Your classroom can occupy atmost 60 tables or chairs or both. Here we\nget certain statements involving a sign ‘<’ (less than), ‘>’ (greater than), ‘ ≤’ (less than\nor equal) and ≥ (greater than or equal) which are known as inequalities .\nIn this Chapter , we will study linear inequalities in one and two variables. The\nstudy of inequalities is very useful in solving problems in the field of science, mathematics,\nstatistics, economics, psychology , etc.\n5.2 Inequalities\nLet us consider the following situations:\n(i) Ravi goes to market with ` 200 to buy rice, which is available in packets of 1kg. The\nprice of one packet of rice is ` 30. If x denotes the number of packets of rice, which he\nbuys, then the total amount spent by him is ` 30x. Since, he has to buy rice in packets\nonly, he may not be able to spend the entire amount of ` 200. (Why?) Hence\n30x < 200 ... (1)\nClearly the statement (i) is not an equation as it does not involve the sign of equality .\n(ii) Reshma has ` 120 and wants to buy some registers and pens. The cost of one\nregister is ` 40 and that of a pen is ` 20. In this case, if x denotes the number of\nregisters and \ny, the number of pens which Reshma buys, then the total amount spent by\nher is ` (40x + 20y) and we have\n40x + 20y ≤ 120 ... (2)LINEAR INEQUALITIES\nReprint 2025-26\n90 MATHEMA TICS\nSince in this case the total amount spent may be upto ` 120. Note that the statement (2)\nconsists of two statements\n40x + 20y < 120 ... (3)\nand 40x + 20y = 120 ... (4)\nStatement (3) is not an equation, i.e., it is an inequality while statement (4) is an equation.\nDefinition 1 Two real numbers or two algebraic expressions related by the symbol\n‘<’, ‘>’, ‘\n≤’ or ‘≥’ form an inequality .\nStatements such as (1), (2) and (3) above are inequalities.\n3 < 5; 7 > 5 are the examples of numerical inequalities while\n x < 5; y > 2; x ≥ 3, y ≤ 4 are some examples of literal inequalities .\n3 < 5 < 7 (read as 5 is greater than 3 and less than 7), 3 < x < 5 (read as x is greater\nthan or equal to 3 and less than 5"
+  },
+  {
+   "grade": 11,
+   "chapter_id": 6,
+   "chapter": "Linear Inequalities",
+   "part": 1,
+   "formulas": [
+    "If multiply/divide by negative, inequality sign flips"
+   ],
+   "question_types": [
+    "Solve one variable inequalities",
+    "Solve two variable inequalities",
+    "Graph feasible region"
+   ],
+   "source_pdf": "class 11\\kemh106.pdf",
+   "text_excerpt": "100 MA THEMA TICS\nvEvery body of discovery is mathematical in form because there is no\nother guidance we can have – DARWIN v\n6.1 Introduction\nSuppose you h ave a suitcase with a number lock. The number\nlock has 4 wheels each labelled with 10 digits from 0 to 9.\nThe lock can be opened if 4 specific digits are arranged in a\nparticular sequence with no repetition. Some how , you have\nforgotten this specific sequence of digits. You remember only\nthe first digit which is 7. In order to open the lock, how\nmany sequences of 3-digits you may have to check with? To\nanswer this question, you may , immediately , start listing all\npossible arrangements of 9 remaining digits taken 3 at a\ntime. But, this method will be tedious, because the number\nof possible sequences may be lar ge. Here, in this Chapter ,\nwe shall learn some basic counting techniques which will\nenable us to answer this question without actually listing 3-digit arrangements. In fact,\nthese techniques will be useful in determining the number of different ways of arranging\nand selecting objects without actually listing them. As a first step, we shall examine a\nprinciple which is most fun damental to th e learning of these techniques.\n6.2 Fundamental Principle of Counting\nLet us consider the following problem. Mohan has 3 pants and 2 shirts. How many\ndifferent pairs of a pant and a shirt, can he dress up with? There are 3 ways in which\na pant can be chosen, because there are 3 pants available. Similarly , a shirt can be\nchosen in 2 ways. For every choice of a pant, there are 2 choices of a shirt. Therefore,\nthere are 3 × 2 = 6 pairs of a pant and a shirt.6 Chapter\nPERMUT ATIONS AND COMBINA TIONS\nJacob Bernoulli\n(1654-1705)\nReprint 2025-26\n PERMUTATION S AND COMBINATIONS 101\nLet us name the three pants as P1, P2, P3 and the two shirts as S1, S2. Then,\nthese six possibilities can be illustrated in the Fig. 6.1.\nLet us consider another problem\nof the same type.\nSabnam has 2 school bags, 3 tiffin boxes\nand 2 water bottles. In how many ways\ncan she carry these items (choosing one\neach).\nA school bag can be chosen in 2\ndifferent ways. After a school bag is\nchosen, a tiffin box can be chosen in 3\ndifferent ways. Hence, there are\n2 × 3 = 6 pairs of school bag and a tiffin\nbox. For each of these pairs a water\nbottle can be chosen in 2 different ways.\nHence, there are 6 × 2 = 12 different ways in which, Sabnam can carry these items to\nschool. If we name the 2 school bags as B1, B2, the three tiffin boxes as T1, T2, "
+  },
+  {
+   "grade": 11,
+   "chapter_id": 7,
+   "chapter": "Permutations and Combinations",
+   "part": 1,
+   "formulas": [
+    "nPr=n!/(n-r)!",
+    "nCr=n!/(r!(n-r)!)",
+    "nCr=nC(n-r)"
+   ],
+   "question_types": [
+    "Arrangement problems",
+    "Selection problems",
+    "Restriction cases"
+   ],
+   "source_pdf": "class 11\\kemh107.pdf",
+   "text_excerpt": "126 MA THEMA TICS\nvMathematics is a most exact science and its conclusions are capable of\nabsolute proofs. – C.P. STEINMETZ v\n7.1 Introduction\nIn earlier classes, we have learnt how to find the squares\nand cubes of binomials like a + b and a – b. Using them, we\ncould evaluate the numerical values of numbers like\n(98)2 = (100 – 2)2, (999)3 = (1000 – 1)3, etc. However , for\nhigher powers like (98)5, (101)6, etc., the calculations become\ndifficult by using repeated multiplication. This difficulty was\novercome by a theorem known as binomial theorem. It gives\nan easier way to expand ( a + b)n, where n is an integer or a\nrational number . In this Chapter , we study binomial theorem\nfor positive integral indices only .\n7.2 Binomial Theorem for Positive Integral Indices\nLet us have a look at the following identities done earlier:\n(a+ b)0 = 1 a + b ≠ 0\n(a+ b)1 = \na + b\n(a+ b)2 = a2 + 2ab + b2\n(a+ b)3 = a3 + 3a2b + 3ab2 + b3\n(a+ b)4 = (a + b)3 (a + b) = a4 + 4a3b + 6a2b2 + 4ab3 + b4\nIn these expansions, we observe that\n(i)The total number of terms in the expansion is one more than the index. For\nexample, in the expansion of ( a + b)2 , number of terms is 3 whereas the index of\n(a + b)2 is 2.\n(ii) Powers of the first quantity ‘ a’ go on decreasing by 1 whereas the powers of the\nsecond quantity ‘ b’ increase by 1, in the successive terms.\n(iii) In each term of the expansion, the sum of the indices of a and b is the same and\nis equal to the index of a + b.7 Chapter\nBlaise Pascal\n(1623-1662)\nBINOMIAL THEOREM\nReprint 2025-26\nBINOMIAL THEOREM 127\nWe now arrange the coef ficients in these expansions as follows (Fig 7.1):\nDo we observe any pattern in this table that will help us to write the next row? Yes we\ndo. It can be seen that the addition of 1’ s in the row for index 1 gives rise to 2 in the row\nfor index 2. The addition of 1, 2 and 2, 1 in the row for index 2, gives rise to 3 and 3 in\nthe row for index 3 and so on. Also, 1 is present at the beginning and at the end of each\nrow. This can be continued till any index of our interest.\nWe can extend the pattern given in Fig 7.2 by writing a few more rows.\nPascal’ s Triangle\nThe structure given in Fig 7.2 looks like a triangle with 1 at the top vertex and running\ndown the two slanting sides. This array of numbers is known as Pascal’ s triangle ,\nafter the name of French mathematician Blaise Pascal. It is also known as Meru\nPrastara by Pingla.\nExpansions for the higher powers of a binomial are also possible by using Pascal’"
+  },
+  {
+   "grade": 11,
+   "chapter_id": 8,
+   "chapter": "Binomial Theorem",
+   "part": 1,
+   "formulas": [
+    "(x+y)^n=sum(k=0 to n) nCk x^(n-k)y^k",
+    "General term T_(k+1)=nCk x^(n-k)y^k"
+   ],
+   "question_types": [
+    "Find specific term",
+    "Find coefficient",
+    "Middle term"
+   ],
+   "source_pdf": "class 11\\kemh108.pdf",
+   "text_excerpt": "vNatural numbers are the product of human spirit. – DEDEKIND v\n8.1 Introduction\nIn mathematics, the word, “ sequence ” is used in much the\nsame way as it is in ordinary English. When we say that a\ncollection of objects is listed in a sequence, we usually mean\nthat the collection is ordered in such a way that it has an\nidentified first member , second member , third member and\nso on. For example, population of human beings or bacteria\nat different times form a sequence. The amount of money\ndeposited in a bank, over a number of years form a sequence.\nDepreciated values of certain commodity occur in a\nsequence. Sequences have important applications in several\nspheres of human activities.\nSequences, following specific patterns are called progressions . In previous class,\nwe have studied about arithmetic pr ogression (A.P). In this Chapter , besides discussing\nmore about A.P.; arithmetic mean, geometric mean, r elationship between A.M.\nand G .M., special series in forms of sum to n terms of consecutive natural numbers,\nsum to n terms of squar es of natural numbers and sum to n terms of cubes of\nnatural numbers will also be studied.\n8.2 Sequences\nLet us consider the following examples:\nAssume that there is a generation gap of 30 years, we are asked to find the\nnumber of ancestors, i.e., parents, grandparents, great grandparents, etc. that a person\nmight have over 300 y ears.\nHere, the total number of generations = 3001030=\nFibonacci\n(1175-1250)Chapter\nSEQUENCES AND SERIES8\nReprint 2025-26\n136 MA THEMA TICS\nThe number of person’ s ancestors for the first, second, third, …, tenth generations are\n2, 4, 8, 16, 32, …, 1024. These numbers form what we call a sequence .\nConsider the successive quotients that we obtain in the division of 10 by 3 at\ndifferent steps of division. In this process we get 3,3.3,3.33,3.333, ... and so on. These\nquotients also form a sequence. The various numbers occurring in a sequence are\ncalled its terms . We denote the terms of a sequence by a1, a2, a3, …, an, …, etc., the\nsubscripts denote the position of the term. The nth term is the number at th e nth position\nof the sequence and is denoted by an. The nth term is also called the general\n term\n of the\nsequence.\nThus, the terms of the sequence of person’ s ancestors mentioned above are:\na1 = 2, a2 = 4, a3 = 8, …, a10 = 1024.\nSimilarly , in the example of successive quotients\na1 = 3, a2 = 3.3, a3 = 3.33, …, a6 = 3.33333, etc.\nA sequence containing finite number of terms is called a finite s"
+  },
+  {
+   "grade": 11,
+   "chapter_id": 9,
+   "chapter": "Sequences and Series",
+   "part": 1,
+   "formulas": [
+    "AP: a_n=a+(n-1)d",
+    "AP sum S_n=n/2(2a+(n-1)d)",
+    "GP: a_n=ar^(n-1)",
+    "GP sum finite S_n=a(r^n-1)/(r-1), r!=1",
+    "GP infinite S=a/(1-r), |r|<1"
+   ],
+   "question_types": [
+    "Nth term",
+    "Sum problems",
+    "Find means",
+    "Convergence basics"
+   ],
+   "source_pdf": "class 11\\kemh109.pdf",
+   "text_excerpt": "vG GG GG eometry , as a logical system, is a means and even the most powerful\nmeans to make children feel the strength of the human spirit that is\nof their own spirit. – H. FREUDENTHAL v\n9.1 Introduction\nWe are familiar with two-dimensional coor dinate geometr y\nfrom earlier classes. Mainly , it is a combination of algebra\nand geometry . A systematic study of geometry by the use\nof algebra was first carried out by celebrated French\nphilosopher and mathematician René Descartes, in his book\n‘La Géométry , published in 1637. This book introduced the\nnotion of the equation of a curve and related analytical\nmethods into the study of geometry . The resulting\ncombination of analysis and geometry is referred now as\nanalytical geometr y. In the earlier classes, we initiated\nthe study of coordinate geometry , where we studied about\ncoordinate axes, coordinate plane, plotting of points in a\nplane, distance between two points, section formulae, etc. All these concepts are the\nbasics of coordinate geometry .\nLet us have a brief recall of coordinate geometry done in earlier classes. To\nrecapitulate, the location of the points (6, – 4) and\n(3, 0) in the XY -plane is shown in Fig 9.1.\nWe may note that the point (6, – 4) is at 6 units\ndistance from the y-axis measured along the positive\nx-axis and at 4 units distance from the x\n-axis\nmeasured along the negative y-axis. Similarly , the\npoint (3, 0) is at 3 units distance from the y-axis\nmeasured along the positive x-axis and has zero\ndistance from the x-axis.\nWe also studied there following important\nformulae:9 Chapter\nSTRAIGHT LINES\nRené Descartes\n (1596 -1650)\nFig 9.1\nReprint 2025-26\n152 MATHEMA TICS\nI.Distance between the points P ( x1, y1) and Q ( x2, y2) is\n( ) ( ) 12 2\n2 2 1 PQ x – x y – y= +\nFor example, distance between the points (6, – 4) and (3, 0) is\n( ) ( )2 23 6 0 4 9 16 5− + + = + = units.\nII. The coordinates of a point dividing the line segment joining the points ( x1, y1)\nand ( x2, y2) internally , in the ratio m: n are \n\n\n\n++\n++\nn mynym\nn mxnxm1 2 1 2, .\nFor example, the coordinates of the point which divides the line segment joining\nA (1, –3) and B (–3, 9) internally , in the ratio 1: 3 are given by 1 ( 3) 3 101 3. .x− += =+\nand () 1.9 + 3. –3= = 0.1 + 3y\nIII. In particular , if m = n, the coordinates of the mid-point of the line segment\njoining the points ( x1, y1) and ( x2, y2) are \n\n + +\n2,22 1 2 1 y y x x.\nIV.Area of the triangle whose vertices are ( x1, y1), (x2, y2) and ( x3, y3) is\n( )"
+  },
+  {
+   "grade": 11,
+   "chapter_id": 10,
+   "chapter": "Straight Lines",
+   "part": 1,
+   "formulas": [
+    "y=mx+c",
+    "y-y1=m(x-x1)",
+    "(x/a)+(y/b)=1",
+    "Distance from point to line=|ax1+by1+c|/sqrt(a^2+b^2)"
+   ],
+   "question_types": [
+    "Equation from conditions",
+    "Angle between lines",
+    "Distance problems",
+    "Family of lines"
+   ],
+   "source_pdf": "class 11\\kemh110.pdf",
+   "text_excerpt": "176 MA THEMA TICS\nvLet the relation of knowledge to real life be very visible to your pupils\nand let them understand how by knowledge the world could be\ntransformed. – BERTRAND RUSSELL v\n10.1 Introduction\nIn the preceding Chapter 10, we have studied various forms\nof the equations of a line. In this Chapter , we shall study\nabout some other curves, viz., circles, ellipses, parabolas\nand hyperbolas. The names parabola and hyperbola are\ngiven by Apollonius. These curves are in fact, known as\nconic sections or more commonly conics because they\ncan be obtained as intersections of a plane with a double\nnapped right circular cone. These curves have a very wide\nrange of applications in fields such as planetary motion,\ndesign of telescopes and antennas, reflectors in flashlights\nand automobile headlights, etc. Now , in the subsequent sections we will see how the\nintersection of a plane with a double napped right circular cone\nresults in different types of curves.\n10.2 Sections of a Cone\nLet l be a fixed vertical line and m be another line intersecting it at\na fixed point V and inclined to it at an angle α (Fig10.1).\nSuppose we rotate the line m around the line l in such a way\nthat the angle α remains constant. Then the surface generated is\na double-napped right circular hollow cone herein after referred as\nApollonius\n(262 B.C. -190 B.C.)10 Chapter\nFig 10. 1CONIC SECTIONS\nReprint 2025-26\nCONIC SECTIONS 177\nFig 10. 2 Fig 10. 3\ncone and extending indefinitely far in both directions (Fig10.2).\nThe point V is called the vertex ; the line l is the axis of the cone. The rotating line\nm is called a generator of the cone. The vertex separates the cone into two parts\ncalled nappes .\nIf we take the intersection of a plane with a cone, the section so obtained is called\na conic section . Thus, conic sections are the curves obtained by intersecting a right\ncircular cone by a plane.\nWe obtain dif ferent kinds of conic sections depending on the position of the\nintersecting plane with respect to the cone and by the angle made by it with the vertical\naxis of the cone. Let β be the angle made by the intersecting plane with the vertical\naxis of the cone (Fig10.3).\nThe intersection of the plane with the cone can take place either at the vertex of\nthe cone or at any other part of the nappe either below or above the vertex.\n10.2.1 Circle, ellipse, parabola and hyperbola When the plane cuts the nappe (other\nthan the vertex) of the cone, we have the following situations:\n(a) When \nβ = 90o,"
+  },
+  {
+   "grade": 11,
+   "chapter_id": 11,
+   "chapter": "Conic Sections",
+   "part": 1,
+   "formulas": [
+    "Parabola y^2=4ax",
+    "Ellipse x^2/a^2+y^2/b^2=1",
+    "Hyperbola x^2/a^2-y^2/b^2=1"
+   ],
+   "question_types": [
+    "Identify conic",
+    "Find focus/directrix/eccentricity",
+    "Tangent/normal basics"
+   ],
+   "source_pdf": "class 11\\kemh111.pdf",
+   "text_excerpt": "208 MATHEMA TICS\nvMathematics is both the queen and the hand-maiden of\nall sciences – E.T . BELLv\n11.1 Intr oduction\nYou may recall that to locate the position of a point in a\nplane, we need two intersecting mutually perpendicular lines\nin the plane. These lines are called the coordinate axes\nand the two numbers are called the coordinates of the\npoint with r espect to the axes . In actual life, we do not\nhave to deal with points lying in a plane only . For example,\nconsider the position of a ball thrown in space at different\npoints of time or the position of an aeroplane as it flies\nfrom one place to another at different times during its flight.\nSimilarly , if we were to locate the position of the\nlowest tip of an electric bulb hanging from the ceiling of a\nroom or the position of the central tip of the ceiling fan in a room, we will not only\nrequire the perpendicular distances of the point to be located from two perpendicular\nwalls of the room but also the height of the point from the floor of the room. Therefore,\nwe need not only two but three numbers representing the perpendicular distances of\nthe point from three mutually perpendicular planes, namely the floor of the room and\ntwo adjacent walls of the room. The three numbers representing the three distances\nare called the coor dinates of the point with r eference to the thr ee coor dinate\nplanes . So, a point in space has three coordinates. In this Chapter , we shall study the\nbasic concepts of geometry in three dimensional space.*\n*For various activities in three dimensional geometry one may refer to the Book, “ A Hand Book for\ndesigning Mathematics Laboratory in Schools” , NCER T, 2005.\nLeonhard Euler\n(1707-1783)11 Chapter\nINTRODUCTION TO THREE\nDIMEN SIONAL GEOMETR Y\nReprint 2025-26\nINTRODUCTION TO THREE DIMENSIONAL GEOMETRY 209\n11.2 Coordinate Axes and Coordinate Planes in Three Dimensional Space\nConsider three planes intersecting at a point O\nsuch that these three planes are mutually\nperpendicular to each other (Fig 1 1.1). These\nthree planes intersect along the lines X ′OX, Y′OY\nand Z′OZ, called the x, y and z-axes, respectively .\nWe may note that these lines are mutually\nperpendicular to each other . These lines constitute\nthe rectangular coor dinate system . The planes\nXOY , YOZ and ZOX, called, respectively the\nXY-plane , YZ-plane and the ZX- plane , are\nknown as the three coordinate planes. We take\nthe XOY plane as the plane of the paper and the\nline Z′OZ as perpendicular to the plane XOY . If"
+  },
+  {
+   "grade": 11,
+   "chapter_id": 12,
+   "chapter": "Introduction to Three Dimensional Geometry",
+   "part": 1,
+   "formulas": [
+    "Distance 3D=sqrt((x2-x1)^2+(y2-y1)^2+(z2-z1)^2)",
+    "Section 3D=((mx2+nx1)/(m+n),(my2+ny1)/(m+n),(mz2+nz1)/(m+n))"
+   ],
+   "question_types": [
+    "Distance and section",
+    "Coordinate interpretation"
+   ],
+   "source_pdf": "class 11\\kemh112.pdf",
+   "text_excerpt": "vWith the Calculus as a key , Mathematics can be successfully applied to the\nexplanation of the course of Nature – WHITEHEAD v\n12.1 Introduction\nThis chapter is an introduction to Calculus. Calculus is that\nbranch of mathematics which mainly deals with the study\nof change in the value of a function as the points in the\ndomain change. First, we give an intuitive idea of derivative\n(without actually defining it). Then we give a naive definition\nof limit and study some algebra of limits. Then we come\nback to a definition of derivative and study some algebra\nof derivatives. We also obtain derivatives of certain\nstandard functions.\n12.2 Intuitive Idea of Derivatives\nPhysical experiments have confirmed that the body dropped\nfrom a tall cliff covers a distance of 4.9 t2 metres in t seconds,\ni.e., distance s in metres covered by the body as a function of time t in seconds is given\nby s = 4.9 t2.\nThe adjoining Table 13.1 gives the distance travelled in metres at various intervals\nof time in seconds of a body dropped from a tall cliff.\nThe objective is to find the veloctiy of the body at time t = 2 seconds from this\ndata. One way to approach this problem is to find the average velocity for various\nintervals of time ending at t = 2 seconds and hope that these throw some light on the\nvelocity at t = 2 seconds.\nAverage velocity between t = t1 and t = t2 equals distance travelled between\n t = t1 and t = t2 seconds divided by ( t2 – t1). Hence the average velocity in the first\ntwo seconds12 Chapter\nLIMITS AND DERIV ATIVES\nSir Issac Newton\n(1642-1727)\nReprint 2025-26\n218 MATHEMA TICS\n=2 1\n2 1Distance travelled between 2 0\nTime interval ( )t and t\nt t= =\n−\n=( )\n( )19.6 09.8 /2 0mm ss−=−.\nSimilarly , the average velocity between t = 1\n and t = 2 is\n( )\n( )19.6 – 4.9\n2 1m\ns−= 14.7 m/s\nLikewise we compute the average velocitiy\nbetween t = t1 and t = 2 for various t1. The following\nTable 13.2 gives the average velocity ( v), t = t1\nseconds and t = 2 seconds.\nTable 12.2\nt10 1 1.5 1.8 1.9 1.95 1.99\nv 9.8 14.7 17.15 18.62 19.11 19.355 19.551\nFrom Table 12.2, we observe that the average velocity is gradually increasing.\nAs we make the time intervals ending at t = 2 smaller , we see that we get a better idea\nof the velocity at t = 2. Hoping that nothing really dramatic happens between 1.99\nseconds and 2 seconds, we conclude that the average velocity at t = 2 seconds is just\nabove 19.551 m/s.\nThis conclusion is somewhat strengthened by the following set of computation.\nCompute the a"
+  },
+  {
+   "grade": 11,
+   "chapter_id": 13,
+   "chapter": "Limits and Derivatives",
+   "part": 1,
+   "formulas": [
+    "lim(x->0) sinx/x=1",
+    "d/dx (x^n)=n x^(n-1)",
+    "d/dx (sinx)=cosx",
+    "d/dx (cosx)=-sinx"
+   ],
+   "question_types": [
+    "Evaluate limits",
+    "Differentiate standard forms",
+    "Differentiate composite expressions"
+   ],
+   "source_pdf": "class 11\\kemh113.pdf",
+   "text_excerpt": "v“Statistics may be rightly called the science of averages and their\nestimates.” – A.L.BOWLEY & A.L. BODDINGT ON v\n13.1 Introduction\nWe know that statistics deals with data collected for specific\npurposes. We can make decisions about the data by\nanalysing and interpreting it. In earlier classes, we have\nstudied methods of representing data graphically and in\ntabular form. This representation reveals certain salient\nfeatures or characteristics of the data. We have also studied\nthe methods of finding a representative value for the given\ndata. This value is called the measure of central tendency .\nRecall mean (arithmetic mean), median and mode are three\nmeasures of central tendency . A measur e of central\ntendency gives us a rough idea where data points are\ncentred. But, in order to make better interpretation from the\ndata, we should also have an idea how the data are scattered or how much they are\nbunched around a measure of central tendency .\nConsider now the runs scored by two batsmen in their last ten matches as follo ws:\nBatsman A :30, 91, 0, 64, 42, 80, 30, 5, 1 17, 71\nBatsman B : 53, 46, 48, 50, 53, 53, 58, 60, 57, 52\nClearly , the mean and median of the data are\nBatsman A Batsman B\nMean 53 53\nMedian 53 53\nRecall that, we calculate the mean of a data (denoted by x) by dividing the sum\nof the observations by the number of observations, i.e.,13 Chapter\nSTATISTICS\nKarl Pearson\n (1857-1936)\nReprint 2025-26\n258 MATHEMA TICS\n11n\ni\nix xn==∑\nAlso, the median is obtained by first arranging the data in ascending or descending\norder and applying the following rule.\nIf the number of observations is odd, then the median is th1\n2n+ \n   observation.\nIf the number of observations is even, then median is the mean of th\n2n \n   and\nth\n12n +   observations.\nWe find that the mean and median of the runs scored by both the batsmen A and\nB are same i.e., 53. Can we say that the performance of two players is same? Clearly\nNo, because the variability in the scores of batsman A is from 0 (minimum) to 1 17\n(maximum). Whereas, the range of the runs scored by batsman B is from 46 to 60.\nLet us now plot the above scores as dots on a number line. We find the following\ndiagrams:\nFor batsman A\nFor batsman B\nWe can see that the dots corresponding to batsman B are close to each other and\nare clustering around the measure of central tendency (mean and median), while those\ncorresponding to batsman A are scattered or more spread out.\nThus, the measures of central tendency "
+  },
+  {
+   "grade": 11,
+   "chapter_id": 14,
+   "chapter": "Mathematical Reasoning",
+   "part": 1,
+   "formulas": [
+    "p=>q equivalent to (not p) or q",
+    "not(p and q)=(not p) or (not q)"
+   ],
+   "question_types": [
+    "Truth tables",
+    "Logical implication",
+    "Converse/inverse/contrapositive"
+   ],
+   "source_pdf": "class 11\\kemh114.pdf",
+   "text_excerpt": "vWhere a mathematical reasoning can be had, it is as great a folly to\nmake use of any other , as to grope for a thing in the dark, when\nyou have a candle in your hand. – JOHN ARBUTHNOT v\n14.1 Event\nWe have studied about random experiment and sample space associated with an\nexperiment. The sample space serves as an universal set for all questions concerned\nwith the experiment.\nConsider the experiment of tossing a coin two times. An associated sample space\nis S = {HH, HT , TH, TT}.\nNow suppose that we are interested in those outcomes which correspond to the\noccurrence of exactly one head. We find that HT and TH are the only elements of S\ncorresponding to the occurrence of this happening (event). These two elements form\nthe set E = { HT , TH}\nWe know that the set E is a subset of the sample space S . Similarly , we find the\nfollowing correspondence between events and subsets of S.\nDescription of events Corresponding subset of ‘S’\nNumber of tails is exactly 2 A = {TT}\nNumber of tails is atleast one B = {HT , TH, TT}\nNumber of heads is atmost one C = {HT , TH, TT}\nSecond toss is not head D = { HT , TT}\nNumber of tails is atmost two S = {HH, HT , TH, TT}\nNumber of tails is more than two φ\nThe above discussion suggests that a subset of sample space is associated with\nan event and an event is associated with a subset of sample space. In the light of this\nwe define an event as follows.\nDefinition Any subset E of a sample space S is called an event .14 Chapter\nPROBABILITY\nReprint 2025-26\n290 MATHEMA TICS\n14.1.1 Occurrence of an event Consider the experiment of throwing a die. Let E\ndenotes the event “ a number less than 4 appears”. If actually ‘1’ had appeared on the\ndie then we say that event E has occurred. As a matter of fact if outcomes are 2 or 3,\nwe say that event E has occurred\nThus, the event E of a sample space S is said to have occurred if the outcome\nωof the experiment is such that ω∈ E. If the outcome ω is such that ω ∉ E, we say\nthat the event E has not occurred.\n14.1.2 Types of event s Events can be classified into various types on the basis of the\nelements they have.\n1. Impossible and Sure Events\n The empty set φ and the sample space S describe\nevents. In fact φ is called an impossible event and S, i.e., the whole sample space is\ncalled the sure event .\nTo understand these let us consider the experiment of rolling a die. The associated\nsample space is\nS = {1, 2, 3, 4, 5, 6}\nLet E be the event “ the number appears on the die is a multiple of 7”. Can yo"
+  },
+  {
+   "grade": 11,
+   "chapter_id": 15,
+   "chapter": "Statistics",
+   "part": 1,
+   "formulas": [
+    "Mean=sum(f_i*x_i)/sum(f_i)",
+    "Variance sigma^2=sum(f_i(x_i-mean)^2)/sum(f_i)"
+   ],
+   "question_types": [
+    "Grouped data mean",
+    "Variance/SD",
+    "Interpretation"
+   ],
+   "source_pdf": null,
+   "text_excerpt": ""
+  },
+  {
+   "grade": 11,
+   "chapter_id": 16,
+   "chapter": "Probability",
+   "part": 1,
+   "formulas": [
+    "P(A)=n(A)/n(S)",
+    "P(A union B)=P(A)+P(B)-P(A intersection B)"
+   ],
+   "question_types": [
+    "Simple probability",
+    "Mutually exclusive events",
+    "Independent events basics"
+   ],
+   "source_pdf": null,
+   "text_excerpt": ""
+  },
+  {
+   "grade": 12,
+   "chapter_id": 1,
+   "chapter": "Relations and Functions",
+   "part": 1,
+   "formulas": [
+    "Composite function (fog)(x)",
+    "Invertible iff one-one and onto"
+   ],
+   "question_types": [
+    "Classify relation",
+    "Find inverse function",
+    "Domain/range reasoning"
+   ],
+   "source_pdf": "class 12 part 1\\lemh101.pdf",
+   "text_excerpt": "vThere is no permanent place in the world for ugly mathematics ... . It may\nbe very hard to define mathematical beauty but that is just as true of\nbeauty of any kind, we may not know quite what we mean by a\nbeautiful poem, but that does not prevent us from recognising\none when we read it. — G. H. HARDY v\n1.1 Introduction\nRecall that the notion of relations and functions, domain,\nco-domain and range have been introduced in Class XI\nalong with different types of specific real valued functions\nand their graphs. The concept of the term ‘relation’ in\nmathematics has been drawn from the meaning of relation\nin English language, according to which two objects or\nquantities are related if there is a recognisable connection\nor link between the two objects or quantities. Let A be\nthe set of students of Class XII of a school and B be the\nset of students of Class XI of the same school. Then some\nof the examples of relations from A to B are\n(i){(a, b) ∈A × B: a is brother of b},\n(ii) {(a, b) ∈A × B: \na is sister of b},\n(iii) {(a, b) ∈A × B: age of a is greater than age of b},\n(iv) {(a, b) ∈A × B: total marks obtained by a in the final examination is less than\nthe total marks obtained by b in the final examination},\n(v) {(a, b) ∈ A × B: a lives in the same locality as b}. However , abstracting from\nthis, we define mathematically a relation R from A to B as an arbitrary subset\nof A × B.\nIf (a, b) ∈ R, we say that a is related to b under the relation R and we write as\na R b. In general, ( a, b) ∈ R, we do not bother whether there is a recognisable\nconnection or link between a and b. As seen in Class XI, functions are special kind of\nrelations.\nIn this chapter , we will study dif ferent types of relations and functions, composition\nof functions, invertible functions and bin ary operations.Chapter 1\nRELA TIONS AND FUNCTIONS\nLejeune Dirichlet\n (1805-1859)\nReprint 2025-26\nMATHEMA TICS 2\n1.2 Types of Relations\nIn this section, we would like to study dif ferent types of relations. We know that a\nrelation in a set A is a subset of A × A. Thus, the empty set φ and A × A are two\nextreme relations. For illustration, consider a relation R in the set A = {1, 2, 3, 4} given by\nR = {( a, b): a – \nb = 10}. This is the empty set, as no pair ( a, b) satisfies the condition\na – b = 10. Similarly , R′ = {( a, b) : | a – b | ≥ 0} is the whole set A × A, as all pairs\n(a, b) in A × A satisfy | a – b | ≥ 0. These two extreme examples lead us to the\nfollowing definitions.\nDefinition 1 A relation "
+  },
+  {
+   "grade": 12,
+   "chapter_id": 2,
+   "chapter": "Inverse Trigonometric Functions",
+   "part": 1,
+   "formulas": [
+    "sin(sin^-1 x)=x",
+    "tan^-1 x + tan^-1 y = tan^-1((x+y)/(1-xy)) (with conditions)"
+   ],
+   "question_types": [
+    "Principal value",
+    "Simplify expressions",
+    "Solve equations"
+   ],
+   "source_pdf": "class 12 part 1\\lemh102.pdf",
+   "text_excerpt": "18 MATHEMA TICS\nvMathematics, in general, is fundamentally the science of\nself-evident things. — FELIX KLEIN v\n2.1 Introduction\nIn Chapter 1, we have studied that the inverse of a function\nf, denoted by f–1, exists if f is one-one and onto. There are\nmany functions which are not one-one, onto or both and\nhence we can not talk of their inverses. In Class XI, we\nstudied that trigonometric functions are not one-one and\nonto over their natural domains and ranges and hence their\ninverses do not exist. In this chapter , we shall study about\nthe restrictions on domains and ranges of trigonometric\nfunctions which ensure the existence of their inverses and\nobserve their behaviour through graphical representations.\nBesides, some elementary properties will also be discussed.\nThe inverse trigonometric functions play an important\nrole in calculus for they serve to define many integrals.\nThe concepts of inverse trigonometric functions is also used in science and engineering.\n2.2 Basic Concepts\nIn Class XI, we have studied trigonometric functions, which are defined as follows:\nsine function, i.e., sine : R → [– 1, 1]\ncosine function, i.e., cos : R → [– 1, 1]\ntangent function, i.e., tan : R – { x : x = (2 n \n+ 1) 2π, n ∈ Z} → R\ncotangent function, i.e., cot : R – { x : x = nπ, n ∈ Z} → R\nsecant function, i.e., sec : R – { x : x = (2 n + 1) 2π, n ∈ Z} → R – (– 1, 1)\ncosecant function, i.e., cosec : R – { x : x = nπ, n ∈ Z} → R – (– 1, 1)Chapter 2\nINVERSE TRIGONOMETRIC\nFUNCTIONS\nAryabhata\n (476-550 A. D.)\nReprint 2025-26\nINVERSE TRIGONOMETRIC FUNCTIONS 19\nWe have also learnt in Chapter 1 that if f : X→Y such that f(x) = y is one-one and\nonto, then we can define a unique function g : Y→X such that g(y) = x, where x ∈ X\nand y = f(x), y ∈ \nY. Here, the domain of g = range of f and the range of g = domain\nof f. The function g is called the inverse of f and is denoted by f–1. Further , g is also\none-one and onto and inverse of g is f. Thus, g–1 = (f –1)–1 = f. We also have\n(f –1 o f ) ( x) = f –1 (f (x)) = f –1(y) = x\nand (f o f –1) (y) = f (f –1(y)) = f(x) = y\nSince the domain of sine function is the set of all real numbers and range is the\nclosed interval [–1, 1]. If we restrict its domain to ,2 2−π π \n  , then it becomes one-one\nand onto with range [– 1, 1]. Actually , sine function restricted to any of the intervals\n−\n\n3\n2 2π π,\u0013, ,2 2−π π \n  , 3,2 2π π \n  etc., is one-one and its range is [–1, 1]. We can,\ntherefore, define the inverse of sine functio"
+  },
+  {
+   "grade": 12,
+   "chapter_id": 3,
+   "chapter": "Matrices",
+   "part": 1,
+   "formulas": [
+    "(AB)^T=B^TA^T",
+    "A(adj A)=(adj A)A=|A|I"
+   ],
+   "question_types": [
+    "Matrix operations",
+    "Type of matrix",
+    "Transpose and properties"
+   ],
+   "source_pdf": "class 12 part 1\\lemh103.pdf",
+   "text_excerpt": "34 MATHEMA TICS\nvThe essence of Mathematics lies in its freedom. — CANTOR v\n3.1 Introduction\nThe knowledge of matrices is necessary in various branches of mathematics. Matrices\nare one of the most powerful tools in mathematics. This mathematical tool simplifies\nour work to a great extent when compared with other straight forward methods. The\nevolution of concept of matrices is the result of an attempt to obtain compact and\nsimple methods of solving system of linear equations. Matrices are not only used as a\nrepresentation of the coefficients in system of linear equations, but utility of matrices\nfar exceeds that use. Matrix notation and operations are used in electronic spreadsheet\nprograms for personal computer , which in turn is used in dif ferent areas of business\nand science like budgeting, sales projection, cost estimation, analysing the results of an\nexperiment etc. Also, many physical operations such as magnification, rotation and\nreflection through a plane can be represented mathematically by matrices. Matrices\nare also used in cryptography . This mathematical tool is not only used in certain branches\nof sciences, but also in genetics, economics, sociology , modern psychology and industrial\nmanagement.\nIn this chapter , we shall find it interesting to become acquainted with the\nfundamentals of matrix and matrix algebra.\n3.2 Matrix\nSuppose we wish to express the information that Radha has 15 notebooks. We may\nexpress it as [15] with the understanding that the number inside [ ] is the number of\nnotebooks that Radha has. Now , if we have to express that Radha has 15 notebooks\nand 6 pens. We may express it as [15 6] with the understanding that first number\ninside [ ] is the number of notebooks while the other one is the number of pens possessed\nby Radha. Let us now suppose that we wish to express the information of possessionChapter 3\nMATRICES\nReprint 2025-26\nMATRI CES 35\nof notebooks and pens by Radha and her two friends Fauzia and Simran which\nis as follows:\nRadha has 15 notebooks and 6 pens,\nFauzia has 10 notebooks and 2 pens,\nSimran has 13 notebooks and 5 pens.\nNow this could be arranged in the tabular form as follows:\nNotebooks Pens\nRadha 15 6\nFauzia 10 2\nSimran 13 5\nand this can be expressed as\nor\nRadha Fauzia Simran\nNotebooks 15 10 13\nPens 6 2 5\nwhich can be expressed as:\nIn the first arrangement the entries in the first column represent the number of\nnote books possessed by Radha, Fauzia and Simran, respectively and the entries in the\nsecond co"
+  },
+  {
+   "grade": 12,
+   "chapter_id": 4,
+   "chapter": "Determinants",
+   "part": 1,
+   "formulas": [
+    "|AB|=|A||B|",
+    "Area triangle=(1/2)|x1(y2-y3)+x2(y3-y1)+x3(y1-y2)|"
+   ],
+   "question_types": [
+    "Evaluate determinant",
+    "Properties and simplification",
+    "Solve linear system by Cramer"
+   ],
+   "source_pdf": "class 12 part 1\\lemh104.pdf",
+   "text_excerpt": "76 MATHEMA TICS\nvAll Mathematical truths are relative and conditional . — C.P. STEINMETZ v\n4.1 Introduction\nIn the previous chapter , we have studied about matrices\nand algebra of matrices. We have also learnt that a system\nof algebraic equations can be expressed in the form of\nmatrices. This means, a system of linear equations like\na1 x + b1 y =c1\na2 x + b2 y =c2\ncan be represented as 1 1 1\n2 2 2a b c x\na b c y     =           . Now , this\nsystem of equations has a unique solution or not, is\ndetermined by the number a1 b2 – a2 b1. (Recall that if\n1 1\n2 2a b\na b≠ or, a1 b2 – a2 b1 ≠ 0, then the system of linear\nequations has a unique solution). The number a1 b2 – a2 b1\nwhich determines uniqueness of solution is associated with the matrix 1 1\n2 2Aa b\na b =  \nand is called the determinant of A or det A. Determinants have wide applications in\nEngineering, Science, Economics, Social Science, etc.\nIn this chapter, we shall study determinants up to order three only with real entries.\nAlso, we will study various properties of determinants, minors, cofactors and applications\nof determinants in finding the area of a triangle, adjoint and inverse of a square matrix,\nconsistency and inconsistency of system of linear equations and solution of linear\nequations in two or three variables using inverse of a matrix.\n4.2 Determinant\nTo every square matrix A = [aij] of order n, we can associate a number (real or\ncomplex) called determinant of the square matrix A, where aij = (i, j)th element of A.Chapter 4\nDETERMINANTS\nP.S. Laplace\n(1749-1827)\nReprint 2025-26\nDETERMINANTS 77\nThis may be thought of as a function which associates each square matrix with a\nunique number (real or complex). If M is the set of square matrices, K is the set of\nnumbers (real or complex) and f : M → K is defined by f(A) = k, where A\n ∈ M and\nk ∈ K, then f(A) is called the determinant of A. It is also denoted by |A| or det A or ∆ .\nIf A = a b\nc d \n  , then determinant of A is written as |A| = a b\nc d = det (A)\nRemarks\n(i)For matrix A, |A | is read as determinant of A and not modulus of A.\n(ii) Only square matrices have determinants.\n4.2.1 Determinant of a matrix of order one\nLet A = [a] be the matrix of order 1, then determinant of A is defined to be equal to a\n4.2.2 Determinant of a matrix of order two\nLet A = 11 12\n21 22a a\na a \n   be a matrix of order 2 × 2,\nthen the determinant of A is defined as:\ndet (A) = |A| = ∆ = = a11a22 – a21a12\nExample 1 Evaluate 2 4\n–1 2"
+  },
+  {
+   "grade": 12,
+   "chapter_id": 5,
+   "chapter": "Continuity and Differentiability",
+   "part": 1,
+   "formulas": [
+    "Derivative definition f'(x)=lim(h->0) [f(x+h)-f(x)]/h",
+    "Product rule",
+    "Quotient rule",
+    "Chain rule"
+   ],
+   "question_types": [
+    "Check continuity",
+    "Compute derivatives",
+    "Differentiate implicit/parametric forms"
+   ],
+   "source_pdf": "class 12 part 1\\lemh105.pdf",
+   "text_excerpt": "MA THEMA TICS 104\nvThe whole of science is nothing more than a refinement\nof everyday thinking. ” — ALBERT EINSTEIN v\n5.1 Introduction\nThis chapter is essentially a continuation of our study of\ndifferentiation of functions in Class XI. We had learnt to\ndifferentiate certain functions like polynomial functions and\ntrigonometric functions. In this chapter , we introduce the\nvery important concepts of continuity , differentiability and\nrelations between them. We will also learn dif ferentiation\nof inverse trigonometric functions. Further , we introduce a\nnew class of functions called exponential and logarithmic\nfunctions. These functions lead to powerful techniques of\ndifferentiation. We illustrate certain geometrically obvious\nconditions through differential calculus. In the process, we\nwill learn some fundamental theorems in this area.\n5.2 Continuity\nWe start the section with two informal examples to get a feel of continuity . Consider\nthe function\n1, if 0( )2, if 0xf xx≤ => \nThis function is of course defined at every\npoint of the real line. Graph of this function is\ngiven in the Fig 5.1. One can deduce from the\ngraph that the value of the function at nearby\npoints on x-axis remain close to each other\nexcept at x = 0. At the points near and to the\nleft of 0, i.e., at points like – 0.1, – 0.01, – 0.001,\nthe value of the function is 1. At the points near\nand to the right of 0, i.e., at points like 0.1, 0.01,Chapter 5\nCONTINUITY AND\nDIFFERENTIABILITY\nSir Issac Newton\n(1642-1727)\nFig 5.1\nReprint 2025-26\nCONTINUITY AND DIFFERENTIABILITY 105\n0.001, the value of the function is 2. Using the language of left and right hand limits, we\nmay say that the left (respectively right) hand limit of f at 0 is 1 (respectively 2). In\nparticular the left and right hand limits do not coincide. We also observe that the value\nof the function at x = 0 concides with the left hand limit. Note that when we try to draw\nthe graph, we cannot draw it in one stroke, i.e., without lifting pen from the plane of the\npaper , we can not draw the graph of this function. In fact, we need to lift the pen when\nwe come to 0 from left. This is one instance of function being not continuous at x = 0.\nNow , consider the function defined as\nf xx\nx( ),\n,=≠\n=\n\n1 0\n2 0if\nif\nThis function is also defined at every point. Left and the right hand limits at x = 0\nare both equal to 1. But the value of the\nfunction at x = 0 equals 2 which does not\ncoincide with the common value of the left\nand right hand li"
+  },
+  {
+   "grade": 12,
+   "chapter_id": 6,
+   "chapter": "Applications of Derivatives",
+   "part": 1,
+   "formulas": [
+    "Increasing if f'(x)>0",
+    "Decreasing if f'(x)<0",
+    "Max/min from sign change of derivative"
+   ],
+   "question_types": [
+    "Monotonicity",
+    "Tangents/normals",
+    "Maxima/minima",
+    "Approximation"
+   ],
+   "source_pdf": "class 12 part 1\\lemh106.pdf",
+   "text_excerpt": "vWith the Calculus as a key , Mathematics can be successfully applied\nto the explanation of the course of Nature.” — WHITEHEAD v\n6.1Introduction\nIn Chapter 5, we have learnt how to find derivative of composite functions, inverse\ntrigonometric functions, implicit functions, exponential functions and logarithmic functions.\nIn this chapter , we will study applications of the derivative in various disciplines, e.g., in\nengineering, science, social science, and many other fields. For instance, we will learn\nhow the derivative can be used (i) to determine rate of change of quantities, (ii) to find\nthe equations of tangent and normal to a curve at a point, (iii) to find turning points on\nthe graph of a function which in turn will help us to locate points at which largest or\nsmallest value (locally) of a function occurs. We will also use derivative to find intervals\non which a function is increasing or decreasing. Finally , we use the derivative to find\napproximate value of certain quantities.\n6.2Rate of Change of Quantities\nRecall that by the derivative ds\ndt, we mean the rate of change of distance s with\nrespect to the time t. In a similar fashion, whenever one quantity y varies with another\nquantity x, satisfying some rule ( ) y f x= , then dy\ndx (or f′(x)) represents the rate of\nchange of y with respect to x and dy\ndxx x\n\n=0 (or f′(x0)) represents the rate of change\nof y with respect to x at 0 x x=.\nFurther , if two variables x and y are varying with respect to another variable t, i.e.,\nif ( ) x f t= and ( ) y g t= , then by Chain Rule\ndy\ndx =dy dx\ndt dt, if 0dx\ndt≠Chapter 6\nAPPLICA TION OF\nDERIV ATIVES\nReprint 2025-26\n MA THEMA TICS 148\nThus, the rate of change of y with respect to x can be calculated using the rate of\nchange of y and that of x both with respect to t.\nLet us consider some examples.\nExample 1 Find the rate of change of the area of a circle per second with respect to\nits radius r when r = 5 cm.\nSolution The area A of a circle with radius r is given by A = πr2. Therefore, the rate\nof change of the area A with respect to its radius r is given by 2 A( ) 2d dr rdr dr= π = π .\nWhen r = 5 cm, A10d\ndr= π . Thus, the area of the circle is changing at the rate of\n10π cm2/s.\nExample 2 The volume of a cube is increasing at a rate of 9 cubic centimetres per\nsecond. How fast is the surface area increasing when the length of an edge is 10\ncentimetres ?\nSolution Let x be the length of a side, V be the volume and S be the surface area of\nthe cube. Then, V ="
+  },
+  {
+   "grade": 12,
+   "chapter_id": 7,
+   "chapter": "Integrals",
+   "part": 2,
+   "formulas": [
+    "Integral x^n dx = x^(n+1)/(n+1)+C, n!=-1",
+    "Integral 1/x dx = ln|x|+C",
+    "Integral by parts: int u dv = uv-int v du"
+   ],
+   "question_types": [
+    "Basic integration",
+    "Substitution",
+    "By parts",
+    "Partial fractions"
+   ],
+   "source_pdf": "class 12 part 2\\lemh207.pdf",
+   "text_excerpt": "406 MATHEMA TICS\n/xrhombusThe theory of probabilities is simply the Science of logic\nquantitatively treated. – C.S. PEIRCE /xrhombus\n13.1 Introduction\nIn earlier Classes, we have studied the probability as a\nmeasure of uncertainty of events in a random experiment.\nWe discussed the axiomatic approach formulated by\nRussian Mathematician, A.N. Kolmogorov (1903-1987)\nand treated probability as a function of outcomes of the\nexperiment. We have also established equivalence between\nthe axiomatic theory and the classical theory of probability\nin case of equally likely outcomes. On the basis of this\nrelationship, we obtained probabilities of events associated\nwith discrete sample spaces. We have also studied the\naddition rule of probability . In this chapter , we shall discuss\nthe important concept of conditional probability of an event\ngiven that another event has occurred, which will be helpful\nin understanding the Bayes' theorem, multiplication rule of\nprobability and independence of events. We shall also learn\nan important concept of random variable and its probability\ndistribution and also the mean and variance of a probability distribution. In the last\nsection of the chapter , we shall study an important discrete probability distribution\ncalled Binomial distribution. Throughout this chapter , we shall take up the experiments\nhaving equally likely outcomes, unless stated otherwise.\n13.2 Conditional Probability\nUptill now in probability , we have discussed the methods of finding the probability of\nevents. If we have two events from the same sample space, does the information\nabout the occurrence of one of the events affect the probability of the other event? Let\nus try to answer this question by taking up a random experiment in which the outcomes\nare equally likely to occur .\nConsider the experiment of tossing three fair coins. The sample space of the\nexperiment is\nS = {HHH, HHT , HTH, THH, HTT , THT, TTH, TTT}Chapter 13\nPROBABILITY\nPierre de Fermat\n(1601-1665)\nReprint 2025-26\nPROBABILITY 407\nSince the coins are fair , we can assign the probability 1\n8 to each sample point. Let\nE be the event ‘at least two heads appear ’ and F be the event ‘first coin shows tail’.\nThen\nE ={HHH, HHT , HTH, THH}\nand F ={THH, THT, TTH, TTT}\nTherefore P(E) = P ({HHH}) + P ({HHT}) + P ({HTH}) + P ({THH})\n=1 1 1 1 1\n8 8 8 8 2+ + + = (Why ?)\nand P(F) = P ({THH}) + P ({THT}) + P ({TTH}) + P ({TTT})\n=1 1 1 1 1\n8 8 8 8 2+ + + =\nAlso E ∩ F ={THH}\nwith P(E ∩ F) = P({THH}) = 1\n8\nNow , suppo"
+  },
+  {
+   "grade": 12,
+   "chapter_id": 8,
+   "chapter": "Applications of Integrals",
+   "part": 2,
+   "formulas": [
+    "Area between curves=int_a^b [f(x)-g(x)]dx"
+   ],
+   "question_types": [
+    "Area under curve",
+    "Area between curves",
+    "Geometric area problems"
+   ],
+   "source_pdf": null,
+   "text_excerpt": ""
+  },
+  {
+   "grade": 12,
+   "chapter_id": 9,
+   "chapter": "Differential Equations",
+   "part": 2,
+   "formulas": [
+    "dy/dx=f(x)",
+    "General solution includes constant C",
+    "Variable separable: dy/g(y)=f(x)dx"
+   ],
+   "question_types": [
+    "Form differential equation",
+    "Solve variable separable",
+    "Initial value problems"
+   ],
+   "source_pdf": null,
+   "text_excerpt": ""
+  },
+  {
+   "grade": 12,
+   "chapter_id": 10,
+   "chapter": "Vector Algebra",
+   "part": 2,
+   "formulas": [
+    "a.b=|a||b|cos(theta)",
+    "|a x b|=|a||b|sin(theta)",
+    "Projection of a on b=(a.b)/|b|"
+   ],
+   "question_types": [
+    "Dot/cross product",
+    "Angle between vectors",
+    "Area using cross product"
+   ],
+   "source_pdf": null,
+   "text_excerpt": ""
+  },
+  {
+   "grade": 12,
+   "chapter_id": 11,
+   "chapter": "Three Dimensional Geometry",
+   "part": 2,
+   "formulas": [
+    "Line in vector form r=a+lambda b",
+    "Distance point-plane=|ax1+by1+cz1+d|/sqrt(a^2+b^2+c^2)"
+   ],
+   "question_types": [
+    "Equation of line/plane",
+    "Angle and distance",
+    "Shortest distance problems"
+   ],
+   "source_pdf": null,
+   "text_excerpt": ""
+  },
+  {
+   "grade": 12,
+   "chapter_id": 12,
+   "chapter": "Linear Programming",
+   "part": 2,
+   "formulas": [
+    "Objective function Z=ax+by",
+    "Optimum occurs at feasible region corner points"
+   ],
+   "question_types": [
+    "Feasible region graph",
+    "Max/min objective",
+    "Real-life optimization"
+   ],
+   "source_pdf": null,
+   "text_excerpt": ""
+  },
+  {
+   "grade": 12,
+   "chapter_id": 13,
+   "chapter": "Probability",
+   "part": 2,
+   "formulas": [
+    "P(A|B)=P(A intersection B)/P(B)",
+    "P(A union B)=P(A)+P(B)-P(A intersection B)",
+    "Bayes theorem",
+    "E(X)=sum x_i p_i"
+   ],
+   "question_types": [
+    "Conditional probability",
+    "Bayes theorem",
+    "Random variable and expectation",
+    "Binomial distribution basics"
+   ],
+   "source_pdf": null,
+   "text_excerpt": ""
+  }
+ ]
+}

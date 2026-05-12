@@ -7,7 +7,7 @@ import NexusAssistant from './NexusAssistant';
 import NexusTools from './NexusTools';
 import AIMO3Solver from './AIMO3Solver';
 import NexusLearningCoach from './NexusLearningCoach';
-import { BrainCircuit, Menu, Trophy } from 'lucide-react';
+import { BrainCircuit, Menu, MessageSquare, Trophy } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { toast } from '@/components/ui/sonner';
 
@@ -21,6 +21,8 @@ interface AnswerCardData {
   tier: 'tier1' | 'tier2' | 'tier3';
   route: string;
   estimatedSolveDepth: string;
+  chapterRef?: string;
+  confidence?: number;
 }
 
 interface AutoSolveResponse {
@@ -31,6 +33,11 @@ interface AutoSolveResponse {
   solution?: string;
   confidence?: number;
   error?: string;
+  steps?: string[];
+  method?: string;
+  chapter?: string;
+  grade?: number;
+  relevant_formulas?: string[];
 }
 
 const NexusLayout: React.FC = () => {
@@ -39,6 +46,7 @@ const NexusLayout: React.FC = () => {
   const [visualCue, setVisualCue] = useState<string>('');
   const [showTools, setShowTools] = useState(false);
   const [showAIMO3, setShowAIMO3] = useState(false);
+  const [showAssistant, setShowAssistant] = useState(false);
   const [activeView, setActiveView] = useState<'solve' | 'coach' | 'advanced'>('solve');
   const [activeTool, setActiveTool] = useState<string>('');
   const [activeCategory, setActiveCategory] = useState('calculation');
@@ -64,24 +72,39 @@ const NexusLayout: React.FC = () => {
       alerts.push('Possible operator typing mistake detected.');
     }
 
+    const hasRealSteps = Array.isArray(metadata.steps) && metadata.steps.length > 0;
+    const steps = hasRealSteps
+      ? (metadata.steps as string[])
+      : [
+          'Detect question complexity and assign difficulty tier.',
+          metadata.route === 'calculator-engine'
+            ? 'Route to fast calculator/simplification engine.'
+            : 'Route to deterministic CAS / NCERT-grounded solver.',
+          (metadata.solution && metadata.solution.trim())
+            ? metadata.solution
+            : 'Generate final answer and confidence signal.',
+        ];
+
+    const keyFormula = (metadata.relevant_formulas && metadata.relevant_formulas.length)
+      ? metadata.relevant_formulas.join('   •   ')
+      : formula;
+
+    const chapterRef = metadata.chapter
+      ? `NCERT${metadata.grade ? ` Class ${metadata.grade}` : ''} — ${metadata.chapter}`
+      : undefined;
+
     return {
       question: formula,
       finalAnswer: String(result),
-      keyFormula: formula,
-      steps: [
-        'Detect question complexity and assign difficulty tier.',
-        metadata.route === 'calculator-engine'
-          ? 'Route to fast calculator/simplification engine.'
-          : 'Route to AI solver for multi-step reasoning.',
-        (metadata.solution && metadata.solution.trim())
-          ? metadata.solution
-          : 'Generate final answer and confidence signal.',
-      ],
+      keyFormula,
+      steps,
       mistakeAlerts: alerts,
       solverModeLabel: getSolverModeLabel(metadata.tier),
       tier: metadata.tier,
       route: metadata.route,
       estimatedSolveDepth: metadata.estimatedSolveDepth,
+      chapterRef,
+      confidence: metadata.confidence,
     };
   };
 
@@ -257,6 +280,14 @@ const NexusLayout: React.FC = () => {
           </Button>
           <Button
             variant="outline"
+            className={`border-white/10 hover:bg-white/10 ${showAssistant ? 'bg-nexus-primary/20 text-nexus-primary-bright' : ''}`}
+            onClick={() => setShowAssistant((prev) => !prev)}
+          >
+            <MessageSquare className="w-4 h-4 mr-2" />
+            {showAssistant ? 'Hide Assistant' : 'Show Assistant'}
+          </Button>
+          <Button
+            variant="outline"
             className="border-white/10 hover:bg-white/10"
             onClick={toggleTools}
             disabled={activeView !== 'advanced'}
@@ -318,7 +349,14 @@ const NexusLayout: React.FC = () => {
                     </div>
                     <div>
                       <p className="text-white/60">Final Answer</p>
-                      <p className="text-xl font-bold text-nexus-primary-bright">{answerCard.finalAnswer}</p>
+                      <p className="text-xl font-bold text-nexus-primary-bright">
+                        {answerCard.finalAnswer}
+                        {typeof answerCard.confidence === 'number' && (
+                          <span className="ml-2 text-xs font-normal text-white/50 align-middle">
+                            confidence {Math.round(answerCard.confidence * 100)}%
+                          </span>
+                        )}
+                      </p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
                       <div className="bg-white/5 rounded p-2 border border-white/10">
@@ -339,11 +377,17 @@ const NexusLayout: React.FC = () => {
                       <p className="text-white/60">Key Formula Used</p>
                       <p className="text-white/90">{answerCard.keyFormula}</p>
                     </div>
+                    {answerCard.chapterRef && (
+                      <div>
+                        <p className="text-white/60">NCERT Chapter</p>
+                        <p className="text-white/90">{answerCard.chapterRef}</p>
+                      </div>
+                    )}
                     <div>
                       <p className="text-white/60 mb-1">Step-by-step Reasoning</p>
-                      <ol className="list-decimal pl-5 text-white/85 space-y-1">
-                        {answerCard.steps.map((step) => (
-                          <li key={step}>{step}</li>
+                      <ol className="list-decimal pl-5 text-white/85 space-y-1 whitespace-pre-wrap">
+                        {answerCard.steps.map((step, i) => (
+                          <li key={`${i}-${step.slice(0, 24)}`}>{step}</li>
                         ))}
                       </ol>
                     </div>
@@ -374,20 +418,19 @@ const NexusLayout: React.FC = () => {
           )}
           
           {activeView !== 'coach' && (
-            <NexusInput 
+            <NexusInput
               onFormulaSubmit={handleFormulaSubmit}
               onClear={handleClear}
             />
           )}
         </div>
-        
-        {/* Right panel - Assistant */}
-        <div className="w-80 h-full">
-          <NexusAssistant 
-            formula={activeFormula}
-            formulaResult={formulaResult}
-          />
-        </div>
+
+        {/* Right panel - Assistant (collapsible; independent solver chat) */}
+        {showAssistant && (
+          <div className="w-80 h-full">
+            <NexusAssistant />
+          </div>
+        )}
       </div>
       
       {/* Floating particles for decoration */}

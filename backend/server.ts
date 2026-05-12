@@ -607,42 +607,30 @@ const detectSolveTier = (question: string): SolveTier => {
   const tier3Keywords = [
     'jee',
     'olympiad',
+    'prove that',
     'proof',
-    'prove',
+    'prove ',
     'non-routine',
     'number theory',
     'combinatorics',
     'inequality',
-    'advanced',
-    'multi-step',
-  ];
-
-  const tier2Keywords = [
-    'class 9',
-    'class 10',
-    'class 11',
-    'class 12',
-    'ncert',
-    'board',
-    'chapter',
-    'application',
-    'conceptual',
+    'olympiad-style',
   ];
 
   if (tier3Keywords.some((key) => text.includes(key))) {
     return 'tier3';
   }
 
-  if (tier2Keywords.some((key) => text.includes(key))) {
-    return 'tier2';
-  }
-
-  const simpleMathPattern = /^[0-9a-zx+\-*/^().,%\s=]+$/i;
-  const hasMostlyMathTokens = simpleMathPattern.test(text);
-  if (hasMostlyMathTokens && text.length <= 80) {
+  // Plain integer/decimal arithmetic (no variables, no '=', no '/' or '%', no
+  // words) -> fast in-process engine. Anything with division/percent goes to
+  // the CAS so the student gets an exact fraction, not a long float.
+  const pureArithmetic = /^[\d\s+\-*^().,]+$/.test(text);
+  if (pureArithmetic && /\d/.test(text) && text.length <= 160) {
     return 'tier1';
   }
 
+  // Everything else (equations, algebra, calculus, word problems, conceptual
+  // questions) goes to the deterministic CAS / retrieval pipeline.
   return 'tier2';
 };
 
@@ -652,11 +640,22 @@ const getEstimatedSolveDepth = (tier: SolveTier): string => {
   return 'High depth (advanced multi-step reasoning)';
 };
 
+interface SolverResult {
+  answer: number | string;
+  solution: string;
+  confidence: number;
+  steps?: string[];
+  method?: string;
+  chapter?: string;
+  grade?: number;
+  relevant_formulas?: string[];
+}
+
 const runAimo3Solve = async (
   problem: string,
   numSamples: number,
   timeBudget: number
-): Promise<{ answer: number | string; solution: string; confidence: number }> => {
+): Promise<SolverResult> => {
   return await new Promise((resolve, reject) => {
     try {
       const pythonScript = path.join(__dirname, '..', 'aimo3', 'api', 'solve.py');
@@ -679,6 +678,10 @@ const runAimo3Solve = async (
         errorOutput += data.toString();
       });
 
+      pythonProcess.on('error', (err) => {
+        reject(err);
+      });
+
       pythonProcess.on('close', (code) => {
         if (code === 0) {
           try {
@@ -687,6 +690,13 @@ const runAimo3Solve = async (
               answer: parsed.answer,
               solution: parsed.solution || output,
               confidence: parsed.confidence ?? 0.6,
+              steps: Array.isArray(parsed.steps) ? parsed.steps : undefined,
+              method: parsed.method,
+              chapter: parsed.chapter,
+              grade: parsed.grade,
+              relevant_formulas: Array.isArray(parsed.relevant_formulas)
+                ? parsed.relevant_formulas
+                : undefined,
             });
           } catch {
             const raw = output.trim();
